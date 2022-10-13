@@ -9,9 +9,8 @@
 				</v-app-bar-title>
 			</div>
 			<v-spacer></v-spacer>
-			<v-btn icon>
-				<v-icon>mdi-heart</v-icon>
-			</v-btn>
+
+			<IdiomSwitch />
 
 			<v-btn icon>
 				<v-icon>mdi-magnify</v-icon>
@@ -48,8 +47,14 @@
 
 <script>
 
+import IdiomSwitch from './IdiomSwitch.vue'
+
+
 export default {
 	name: 'HeaderNavigation',
+	components: {
+		IdiomSwitch,
+	},
 
 };
 
