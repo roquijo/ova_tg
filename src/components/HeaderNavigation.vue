@@ -4,7 +4,9 @@
 			<div class="d-flex align-center">
 				<v-img alt="Vuetify Logo" class="shrink mr-2" contain src="../assets/img/logoU.png"
 					transition="scale-transition" width="40" />
-				<h1>Universidad de Ibagué</h1>
+				<v-app-bar-title>
+					Universidad de Ibagué
+				</v-app-bar-title>
 			</div>
 			<v-spacer></v-spacer>
 			<v-btn icon>
@@ -28,12 +30,21 @@
 					</v-list-item>
 				</v-list>
 			</v-menu>
+
+			<template v-slot:extension>
+				<v-tabs align-with-title>
+					<v-tab>Corte 1</v-tab>
+					<v-tab>Corte 2</v-tab>
+					<v-tab>Corte 3</v-tab>
+				</v-tabs>
+			</template>
 		</v-app-bar>
 		<v-main>
 			<router-view />
 		</v-main>
 	</v-app>
 </template>
+
 
 <script>
 

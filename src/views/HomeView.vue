@@ -1,16 +1,16 @@
 <template>
-  <hello-world />
+  <PrincipalPage />
 </template>
 
 <script>
 
-import HelloWorld from '../components/HelloWorld'
+import PrincipalPage from '../components/PrincipalPage.vue'
 
 export default {
   name: 'HomeView',
 
   components: {
-    HelloWorld,
+    PrincipalPage,
   },
 }
 

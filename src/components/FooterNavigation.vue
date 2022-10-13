@@ -10,7 +10,7 @@
             </v-card-text>
 
             <v-card-text style="color: white;">
-                Ova Matematicas Computacionales
+                Ova Lógica Algorítmica
             </v-card-text>
 
             <v-divider></v-divider>
