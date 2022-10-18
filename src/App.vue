@@ -1,25 +1,85 @@
 <template>
-  <div>
-    <HeaderNavigation></HeaderNavigation>
-    <FooterNavigation></FooterNavigation>
-  </div>
+  <v-app>
+    <navigation :color="color" :flat="flat" />
+    <v-main class="pt-0">
+      <home />
+    </v-main>
+    <v-scale-transition>
+      <v-btn
+        fab
+        v-show="fab"
+        v-scroll="onScroll"
+        dark
+        fixed
+        bottom
+        right
+        color="secondary"
+        @click="toTop"
+      >
+        <v-icon>mdi-arrow-up</v-icon>
+      </v-btn>
+    </v-scale-transition>
+    <foote />
+  </v-app>
 </template>
 
-<script>
+<style scoped>
+.v-main {
+  background-image: url("~@/assets/img/bgMain.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+</style>
 
-import HeaderNavigation from './components/HeaderNavigation'
-import FooterNavigation from './components/FooterNavigation'
+<script>
+import navigation from "./components/HeaderNavigation.vue";
+import foote from "./components/FooterNavigation.vue";
+import home from "./components/PrincipalPage.vue";
 
 
 export default {
-  name: 'App',
-  components: {
-    HeaderNavigation,
-    FooterNavigation
-  },
-  data: () => ({
-    //
-  }),
-};
+  name: "App",
 
+  components: {
+    navigation,
+    foote,
+    home
+  },
+
+  data: () => ({
+    fab: null,
+    color: "",
+    flat: null,
+  }),
+
+  created() {
+    const top = window.pageYOffset || 0;
+    if (top <= 60) {
+      this.flat = true;
+    }
+  },
+
+  watch: {
+    fab(value) {
+      if (value) {
+        this.color = "secondary";
+        this.flat = false;
+      } else {
+        this.flat = true;
+      }
+    },
+  },
+
+  methods: {
+    onScroll(e) {
+      if (typeof window === "undefined") return;
+      const top = window.pageYOffset || e.target.scrollTop || 0;
+      this.fab = top > 60;
+    },
+    toTop() {
+      this.$vuetify.goTo(0);
+    },
+  },
+};
 </script>
