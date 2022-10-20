@@ -32,8 +32,3 @@
   </section>
 </template>
 
-<style scoped>
-#about {
-  background-color: #f4f7f5;
-}
-</style>

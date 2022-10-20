@@ -16,7 +16,7 @@
 			<v-divider />
 
 			<v-list dense>
-				<v-list-item v-for="([icon, text, link], i) in itemsNav" :key="i" link @click="$vuetify.goTo(link)">
+				<v-list-item v-for="([icon, text, link], i) in itemsNav" :key="i" link :to="link">
 					<v-list-item-icon class="justify-center">
 						<v-icon>{{ icon }}</v-icon>
 					</v-list-item-icon>
@@ -30,14 +30,16 @@
 		</v-navigation-drawer>
 
 		<v-app-bar app :color="color" :flat="flat" dark :class="{ expand: flat }">
-			<v-toolbar-title>
-				<v-img src="@/assets/img/logoU.png" @click="$vuetify.goTo('#principalSection')" max-width="50px" />
-			</v-toolbar-title>
-			<v-toolbar-title class="pl-5" v-if="!isXs" @click="$vuetify.goTo('#principalSection')"
-				v-t="'headerSection.title'" />
+			<a class="navbar-brand" href="/">
+				<v-toolbar-title>
+					<v-img src="@/assets/img/logoU.png" max-width="50px" />
+				</v-toolbar-title>
+			</a>
+			<v-toolbar-title style="cursor: pointer" @click="$router.push('/')"  class="pl-5" v-if="!isXs" v-t="'headerSection.title'" to="/"/>
+
 			<v-spacer />
 			<div v-if="isXs">
-				<v-row style="display: flex; align-items: center;" align="right">
+				<v-row style="display: flex; align-items: center;">
 					<v-col>
 						<v-app-bar-nav-icon @click.stop="drawer = !drawer" />
 					</v-col>
@@ -135,15 +137,15 @@ export default {
 		drawer: null,
 		isXs: false,
 		itemsNav: [
-			["mdi-home-outline", "Home", "#principalSection"],
-			["mdi-book-open-variant", "Corte 1", "#"],
+			["mdi-home-outline", "Home", "/"],
+			["mdi-book-open-variant", "Corte 1", "/algorithmsView"],
 			["mdi-book-open-variant", "Corte 2", "#"],
 			["mdi-book-open-variant", "Corte 3", "#"],
 		],
 		links: [{
 			icon: "mdi-domain",
 			title: "Media Monitoring",
-			link: "/mmrservices"
+			link: "/algorithmsView"
 		},
 		{
 			icon: "mdi-message-text",
