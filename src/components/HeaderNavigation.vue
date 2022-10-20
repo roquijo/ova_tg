@@ -31,9 +31,10 @@
 
 		<v-app-bar app :color="color" :flat="flat" dark :class="{ expand: flat }">
 			<v-toolbar-title>
-				<v-img src="@/assets/img/logoU.png" max-width="50px" />
+				<v-img src="@/assets/img/logoU.png" @click="$vuetify.goTo('#principalSection')" max-width="50px" />
 			</v-toolbar-title>
-			<v-toolbar-title class="pl-5" v-if="!isXs" v-t="'headerSection.title'"></v-toolbar-title>
+			<v-toolbar-title class="pl-5" v-if="!isXs" @click="$vuetify.goTo('#principalSection')"
+				v-t="'headerSection.title'" />
 			<v-spacer />
 			<div v-if="isXs">
 				<v-row style="display: flex; align-items: center;" align="right">
@@ -50,28 +51,55 @@
 			<div v-else>
 				<v-row align="center" style="display: flex; align-items: center;">
 					<v-col sm="3">
-						<v-menu offset-y transition="slide-y-transition">
+						<v-menu open-on-hover offset-y transition="slide-x-transition" bottom right>
 							<template v-slot:activator="{ on, attrs }">
 								<v-btn text v-bind="attrs" v-on="on">
 									Corte 1
 								</v-btn>
 							</template>
-							<v-list>
-								<v-list-item v-for="(item, index) in items" :key="index">
-									<v-list-item-title>{{ item.title }}</v-list-item-title>
+							<v-list dense>
+								<v-list-item v-for="(item, index) in links" :key="index" router :to="item.link">
+									<v-icon>{{ item.icon }}</v-icon>
+									<v-list-item-action>
+										<v-list-item-title>{{ item.title }}</v-list-item-title>
+									</v-list-item-action>
 								</v-list-item>
 							</v-list>
 						</v-menu>
 					</v-col>
 					<v-col sm="3">
-						<v-btn text>
-							<span class="mr-2">Corte 2</span>
-						</v-btn>
+						<v-menu open-on-hover offset-y transition="slide-x-transition" bottom right>
+							<template v-slot:activator="{ on, attrs }">
+								<v-btn text v-bind="attrs" v-on="on">
+									Corte 2
+								</v-btn>
+							</template>
+							<v-list dense>
+								<v-list-item v-for="(item, index) in links" :key="index" router :to="item.link">
+									<v-icon>{{ item.icon }}</v-icon>
+									<v-list-item-action>
+										<v-list-item-title>{{ item.title }}</v-list-item-title>
+									</v-list-item-action>
+								</v-list-item>
+							</v-list>
+						</v-menu>
 					</v-col>
 					<v-col sm="3">
-						<v-btn text>
-							<span class="mr-2">Corte 3</span>
-						</v-btn>
+						<v-menu open-on-hover offset-y transition="slide-x-transition" bottom right>
+							<template v-slot:activator="{ on, attrs }">
+								<v-btn text v-bind="attrs" v-on="on">
+									Corte 3
+								</v-btn>
+							</template>
+							<v-list dense>
+								<v-list-item v-for="(item, index) in links" :key="index" router :to="item.link">
+									<v-icon>{{ item.icon }}</v-icon>
+									<v-list-item-action>
+										<v-list-item-title>{{ item.title }}</v-list-item-title>
+									</v-list-item-action>
+								</v-list-item>
+							</v-list>
+						</v-menu>
 					</v-col>
 					<v-col sm="3">
 						<div class="pt-7">
@@ -112,12 +140,21 @@ export default {
 			["mdi-book-open-variant", "Corte 2", "#"],
 			["mdi-book-open-variant", "Corte 3", "#"],
 		],
-		items: [
-			{ title: 'Click Me' },
-			{ title: 'Click Me' },
-			{ title: 'Click Me' },
-			{ title: 'Click Me 2' },
-		],
+		links: [{
+			icon: "mdi-domain",
+			title: "Media Monitoring",
+			link: "/mmrservices"
+		},
+		{
+			icon: "mdi-message-text",
+			title: "Audience Measurement",
+			link: "/amrservices"
+		},
+		{
+			icon: "mdi-flag",
+			title: "Integration Analysis"
+		}
+		]
 	}),
 	props: {
 		color: String,
