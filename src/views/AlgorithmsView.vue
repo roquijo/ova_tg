@@ -1,6 +1,6 @@
 <template>
-    <v-app >
-        <v-parallax dark src="@/assets/img/bgDownload.jpg" style="object-fit: contain;">
+    <v-app>
+        <v-parallax dark src="@/assets/img/bgDownload.jpg" height="850">
             <AlgorithmsSection />
         </v-parallax>
     </v-app>

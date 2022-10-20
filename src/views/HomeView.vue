@@ -1,5 +1,5 @@
 <template>
- <v-app>
+  <v-app>
     <v-parallax dark src="@/assets/img/bgHero.jpg" height="550">
       <home />
     </v-parallax>

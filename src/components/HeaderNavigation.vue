@@ -35,7 +35,8 @@
 					<v-img src="@/assets/img/logoU.png" max-width="50px" />
 				</v-toolbar-title>
 			</a>
-			<v-toolbar-title style="cursor: pointer" @click="$router.push('/')"  class="pl-5" v-if="!isXs" v-t="'headerSection.title'" to="/"/>
+			<v-toolbar-title style="cursor: pointer" @click="$router.push('/')" class="pl-5" v-if="!isXs"
+				v-t="'headerSection.title'" to="/" />
 
 			<v-spacer />
 			<div v-if="isXs">
@@ -52,45 +53,11 @@
 			</div>
 			<div v-else>
 				<v-row align="center" style="display: flex; align-items: center;">
-					<v-col sm="3">
+					<v-col sm="3" v-for="(corte, index) in cortes" :key="index">
 						<v-menu open-on-hover offset-y transition="slide-x-transition" bottom right>
 							<template v-slot:activator="{ on, attrs }">
 								<v-btn text v-bind="attrs" v-on="on">
-									Corte 1
-								</v-btn>
-							</template>
-							<v-list dense>
-								<v-list-item v-for="(item, index) in links" :key="index" router :to="item.link">
-									<v-icon>{{ item.icon }}</v-icon>
-									<v-list-item-action>
-										<v-list-item-title>{{ item.title }}</v-list-item-title>
-									</v-list-item-action>
-								</v-list-item>
-							</v-list>
-						</v-menu>
-					</v-col>
-					<v-col sm="3">
-						<v-menu open-on-hover offset-y transition="slide-x-transition" bottom right>
-							<template v-slot:activator="{ on, attrs }">
-								<v-btn text v-bind="attrs" v-on="on">
-									Corte 2
-								</v-btn>
-							</template>
-							<v-list dense>
-								<v-list-item v-for="(item, index) in links" :key="index" router :to="item.link">
-									<v-icon>{{ item.icon }}</v-icon>
-									<v-list-item-action>
-										<v-list-item-title>{{ item.title }}</v-list-item-title>
-									</v-list-item-action>
-								</v-list-item>
-							</v-list>
-						</v-menu>
-					</v-col>
-					<v-col sm="3">
-						<v-menu open-on-hover offset-y transition="slide-x-transition" bottom right>
-							<template v-slot:activator="{ on, attrs }">
-								<v-btn text v-bind="attrs" v-on="on">
-									Corte 3
+									{{corte}}
 								</v-btn>
 							</template>
 							<v-list dense>
@@ -141,6 +108,9 @@ export default {
 			["mdi-book-open-variant", "Corte 1", "/algorithmsView"],
 			["mdi-book-open-variant", "Corte 2", "#"],
 			["mdi-book-open-variant", "Corte 3", "#"],
+		],
+		cortes: [
+			"corte 1", "corte 2", "corte 3"
 		],
 		links: [{
 			icon: "mdi-domain",
