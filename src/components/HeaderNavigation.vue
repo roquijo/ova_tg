@@ -37,16 +37,28 @@
 			<v-spacer />
 			<v-app-bar-nav-icon @click.stop="drawer = !drawer" class="mr-4" v-if="isXs" />
 			<div v-else>
-				<v-btn text @click="$vuetify.goTo('#hero')">
-					<span class="mr-2">Corte 1</span>
-				</v-btn>
-				<v-btn text @click="$vuetify.goTo('#features')">
-					<span class="mr-2">Corte 2</span>
-				</v-btn>
-				<v-btn text @click="$vuetify.goTo('#download')">
-					<span class="mr-2">Corte 3</span>
-				</v-btn>
-				<idiom />
+				<v-row align="center" style="display: flex; align-items: center;">
+					<v-col sm="3">
+						<v-btn text @click="$vuetify.goTo('#hero')">
+							<span class="mr-2">Corte 1</span>
+						</v-btn>
+					</v-col>
+					<v-col sm="3">
+						<v-btn text @click="$vuetify.goTo('#features')">
+							<span class="mr-2">Corte 2</span>
+						</v-btn>
+					</v-col>
+					<v-col sm="3">
+						<v-btn text @click="$vuetify.goTo('#download')">
+							<span class="mr-2">Corte 3</span>
+						</v-btn>
+					</v-col>
+					<v-col sm="3">
+						<div  class="pt-7" style="align-items: center;">
+							<idiom />
+						</div>
+					</v-col>
+				</v-row>
 			</div>
 		</v-app-bar>
 	</div>

@@ -51,6 +51,7 @@ export default {
   created() {
     const top = window.pageYOffset || 0;
     if (top <= 60) {
+      this.color = "transparent";
       this.flat = true;
     }
     this.color = "secondary";
@@ -62,6 +63,7 @@ export default {
         this.color = "secondary";
         this.flat = false;
       } else {
+        this.color = "transparent";
         this.flat = true;
       }
     },

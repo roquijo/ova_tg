@@ -1,9 +1,6 @@
 <template>
-  <select id="locale" v-model="$i18n.locale" style="color:black; background-color: white;">
-    <option v-for="locale in locales" :key="locale.key" :value="locale.key">
-      {{ locale.label }}
-    </option>
-  </select>
+  <v-select id="locale" v-model="$i18n.locale" :items="locales" outlined append-outer-icon="mdi-translate"
+    item-text="label" item-value="key" single-line style="position: relative;"></v-select>
 </template>
   
 <script>

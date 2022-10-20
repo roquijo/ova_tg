@@ -22,8 +22,8 @@
                 </v-col>
               </v-row>
             </v-col>
-            <v-col cols="12" md="5" class="d-none d-md-flex">
-              <v-img src="@/assets/img/historyOfLogic.jpeg" class="d-block ml-auto mr-auto" width="auto" />
+            <v-col cols="12" md="5">
+              <v-img src="@/assets/img/historyOfLogic.jpeg" width="80%" />
             </v-col>
           </v-row>
         </v-col>
