@@ -1,5 +1,5 @@
 <template >
-  <div align="justify">
+  <div align="justify" id="principalSection"> 
     <v-row align="center" justify="center">
       <v-col cols="10">
         <v-row align="center" justify="center">

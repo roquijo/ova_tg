@@ -10,6 +10,11 @@
     "button": "Aprenda Más"
   },
   "algorithmPage": {
-    "title": "ALGORITMOS"
+    "title": "Algoritmos",
+    "paragraph": "Un algoritmo es un conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema, realizar un cálculo o desarrollar una tarea a partir de un estado e información iniciales, se siguen una serie de pasos ordenados para llegar a la solución de una situación. Utilizamos numerosos algoritmos para resolver problemas en nuestra vida cotidiana como, por ejemplo: ",
+    "paragraph2": "Un algoritmo informático parte de un estado inicial y de unos valores de entrada, sigue una serie de pasos sucesivos y llega a un estado final en el que ha obtenido una solución. En este sentido las tres partes de un algoritmo son: ",
+    "paragraphList": "Input (entrada). Información que damos al algoritmo con el que va a trabajar para ofrecer la solución esperada. ",
+    "paragraphList2": "Proceso. Conjunto de pasos para que, a partir de los datos de entrada, llegue a la solución de la situación. ",
+    "paragraphList3": "Output (salida). Resultados, a partir de la transformación de los valores de entrada durante el proceso. "
   }
 }

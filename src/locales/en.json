@@ -8,5 +8,13 @@
     "paragraph2": "Logic plays an important role in computer science (databases, computational complexity, programming languages, artificial intelligence, design and verification of hardware and software systems, etc.). It is definitely one of the fundamentals that provide the necessary maturity and agility to assimilate the concepts, languages, techniques and computer tools that will emerge in the future.",
     "paragraph3": "Test what you have learned so far with the following activity:",
     "button": "Learn More"
+  },
+  "algorithmPage": {
+    "title": "Algorithms",
+    "paragraph": "An algorithm is a set of instructions defined, ordered and delimited to solve a problem, to make a calculation or to develop a task from an initial state and information, a series of ordered steps are followed to reach the solution of a situation. We use numerous algorithms to solve problems in our daily lives, such as: ",
+    "paragraph2": "A computer algorithm starts from an initial state and some input values, it follows a series of successive steps and arrives at a final state in which it has found a solution. In this sense the three parts of an algorithm are: ",
+    "paragraphList": "Input. Information that we give to the algorithm to work with to provide the expected solution. ",
+    "paragraphList2": "Processes. Set of steps to arrive at the solution of the situation from the input data. ",
+    "paragraphList3": "Output Results, from the transformation of the input values during the process."
   }
 }

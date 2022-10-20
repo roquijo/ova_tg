@@ -7,8 +7,8 @@
 						<img src="@/assets/img/logoU.png" alt="Logo" />
 					</v-list-item-avatar>
 					<v-list-item-content>
-						<v-list-item-title class="title">Calango</v-list-item-title>
-						<v-list-item-subtitle>WEB</v-list-item-subtitle>
+						<v-list-item-title class="overflow-visible" v-t="'headerSection.title'"></v-list-item-title>
+						<v-list-item-subtitle>Ova</v-list-item-subtitle>
 					</v-list-item-content>
 				</v-list-item>
 			</v-list>
@@ -16,7 +16,7 @@
 			<v-divider />
 
 			<v-list dense>
-				<v-list-item v-for="([icon, text, link], i) in items" :key="i" link @click="$vuetify.goTo(link)">
+				<v-list-item v-for="([icon, text, link], i) in itemsNav" :key="i" link @click="$vuetify.goTo(link)">
 					<v-list-item-icon class="justify-center">
 						<v-icon>{{ icon }}</v-icon>
 					</v-list-item-icon>
@@ -33,28 +33,37 @@
 			<v-toolbar-title>
 				<v-img src="@/assets/img/logoU.png" max-width="50px" />
 			</v-toolbar-title>
-			<v-toolbar-title class="pl-5" v-t="'headerSection.title'"></v-toolbar-title>
+			<v-toolbar-title class="pl-5" v-if="!isXs" v-t="'headerSection.title'"></v-toolbar-title>
 			<v-spacer />
 			<v-app-bar-nav-icon @click.stop="drawer = !drawer" class="mr-4" v-if="isXs" />
 			<div v-else>
 				<v-row align="center" style="display: flex; align-items: center;">
 					<v-col sm="3">
-						<v-btn text @click="$vuetify.goTo('#hero')">
-							<span class="mr-2">Corte 1</span>
-						</v-btn>
+						<v-menu offset-y transition="slide-y-transition">
+							<template v-slot:activator="{ on, attrs }">
+								<v-btn text v-bind="attrs" v-on="on">
+									Corte 1
+								</v-btn>
+							</template>
+							<v-list>
+								<v-list-item v-for="(item, index) in items" :key="index">
+									<v-list-item-title>{{ item.title }}</v-list-item-title>
+								</v-list-item>
+							</v-list>
+						</v-menu>
 					</v-col>
 					<v-col sm="3">
-						<v-btn text @click="$vuetify.goTo('#features')">
+						<v-btn text >
 							<span class="mr-2">Corte 2</span>
 						</v-btn>
 					</v-col>
 					<v-col sm="3">
-						<v-btn text @click="$vuetify.goTo('#download')">
+						<v-btn text>
 							<span class="mr-2">Corte 3</span>
 						</v-btn>
 					</v-col>
 					<v-col sm="3">
-						<div  class="pt-7" style="align-items: center;">
+						<div class="pt-7">
 							<idiom />
 						</div>
 					</v-col>
@@ -86,12 +95,17 @@ export default {
 	data: () => ({
 		drawer: null,
 		isXs: false,
+		itemsNav: [
+			["mdi-home-outline", "Home", "#principalSection"],
+			["mdi-book-open-variant", "Corte 1", "#"],
+			["mdi-book-open-variant", "Corte 2", "#"],
+			["mdi-book-open-variant", "Corte 3", "#"],
+		],
 		items: [
-			["mdi-home-outline", "Home", "#hero"],
-			["mdi-information-outline", "Sobre", "#features"],
-			["mdi-download-box-outline", "Download", "#download"],
-			["mdi-currency-usd", "Preços", "#pricing"],
-			["mdi-email-outline", "Contatos", "#contact"],
+			{ title: 'Click Me' },
+			{ title: 'Click Me' },
+			{ title: 'Click Me' },
+			{ title: 'Click Me 2' },
 		],
 	}),
 	props: {

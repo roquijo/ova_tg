@@ -4,7 +4,7 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
-            <v-col cols="12" md="7">
+            <v-col cols="12" md="6">
               <v-row>
                 <v-col cols="12" class="d-flex align-center">
                   <v-img src="@/assets/img/logicalIcon.png" max-width="60px" class="mr-4" />
@@ -22,8 +22,8 @@
                 </v-col>
               </v-row>
             </v-col>
-            <v-col cols="12" md="5">
-              <v-img src="@/assets/img/historyOfLogic.jpeg" width="80%" />
+            <v-col cols="12" md="6" class="d-flex align-center">
+              <v-img src="@/assets/img/historyOfLogic.jpeg" max-width="400px"/>
             </v-col>
           </v-row>
         </v-col>
