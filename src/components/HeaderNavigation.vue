@@ -33,6 +33,7 @@
 			<v-toolbar-title>
 				<v-img src="@/assets/img/logoU.png" max-width="50px" />
 			</v-toolbar-title>
+			<v-toolbar-title class="pl-5" v-t="'headerSection.title'"></v-toolbar-title>
 			<v-spacer />
 			<v-app-bar-nav-icon @click.stop="drawer = !drawer" class="mr-4" v-if="isXs" />
 			<div v-else>
@@ -45,7 +46,7 @@
 				<v-btn text @click="$vuetify.goTo('#download')">
 					<span class="mr-2">Corte 3</span>
 				</v-btn>
-				<idiom/>
+				<idiom />
 			</div>
 		</v-app-bar>
 	</div>
@@ -67,7 +68,7 @@
 import idiom from './IdiomSwitch.vue';
 
 export default {
-	components:{
+	components: {
 		idiom
 	},
 	data: () => ({

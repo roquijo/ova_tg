@@ -1,21 +1,14 @@
 <template>
   <v-app>
     <navigation :color="color" :flat="flat" />
-    <v-main class="pt-0">
+    <v-parallax dark src="@/assets/img/bgHero.jpg" height="550">
       <home />
+    </v-parallax>
+    <v-main class="pt-0">
+      <homeSection />
     </v-main>
     <v-scale-transition>
-      <v-btn
-        fab
-        v-show="fab"
-        v-scroll="onScroll"
-        dark
-        fixed
-        bottom
-        right
-        color="secondary"
-        @click="toTop"
-      >
+      <v-btn fab v-show="fab" v-scroll="onScroll" dark fixed bottom right color="secondary" @click="toTop">
         <v-icon>mdi-arrow-up</v-icon>
       </v-btn>
     </v-scale-transition>
@@ -32,11 +25,12 @@
 }
 </style>
 
+
 <script>
 import navigation from "./components/HeaderNavigation.vue";
 import foote from "./components/FooterNavigation.vue";
 import home from "./components/PrincipalPage.vue";
-
+import homeSection from "./components/HomeSection.vue";
 
 export default {
   name: "App",
@@ -44,7 +38,8 @@ export default {
   components: {
     navigation,
     foote,
-    home
+    home,
+    homeSection
   },
 
   data: () => ({
@@ -58,6 +53,7 @@ export default {
     if (top <= 60) {
       this.flat = true;
     }
+    this.color = "secondary";
   },
 
   watch: {
