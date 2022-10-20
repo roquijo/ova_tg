@@ -29,13 +29,24 @@
 			</v-list>
 		</v-navigation-drawer>
 
-		<v-app-bar app :color="color" :flat="flat" dark class="px-15" :class="{ expand: flat }">
+		<v-app-bar app :color="color" :flat="flat" dark :class="{ expand: flat }">
 			<v-toolbar-title>
 				<v-img src="@/assets/img/logoU.png" max-width="50px" />
 			</v-toolbar-title>
 			<v-toolbar-title class="pl-5" v-if="!isXs" v-t="'headerSection.title'"></v-toolbar-title>
 			<v-spacer />
-			<v-app-bar-nav-icon @click.stop="drawer = !drawer" class="mr-4" v-if="isXs" />
+			<div v-if="isXs">
+				<v-row style="display: flex; align-items: center;" align="right">
+					<v-col>
+						<v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+					</v-col>
+					<v-col>
+						<div class="pt-7">
+							<idiom />
+						</div>
+					</v-col>
+				</v-row>
+			</div>
 			<div v-else>
 				<v-row align="center" style="display: flex; align-items: center;">
 					<v-col sm="3">
@@ -53,7 +64,7 @@
 						</v-menu>
 					</v-col>
 					<v-col sm="3">
-						<v-btn text >
+						<v-btn text>
 							<span class="mr-2">Corte 2</span>
 						</v-btn>
 					</v-col>
