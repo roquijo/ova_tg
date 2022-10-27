@@ -1,5 +1,5 @@
 <template>
-  <section id="hero">
+  <section>
     <v-row align="center" justify="center">
       <v-col cols="10">
         <v-row align="center">
@@ -23,13 +23,12 @@
           <v-row align="center" justify="space-around">
             <v-col cols="12" sm="4" class="text-center" v-for="(feature, i) in features" :key="i">
               <v-hover v-slot:default="{ hover }">
-                <v-card class="card" shaped :elevation="hover ? 10 : 4" :class="{ up: hover }">
-                  <v-img :src="feature.img" max-width="100px" class="d-block ml-auto mr-auto"
+                <v-card class="card" shaped :elevation="hover ? 10 : 4" :class="{ up: hover }" height="470px">
+                  <h1 class="font-weight-regular" v-t="'algorithmPage.paragraphTitleList' + (i + 1)" />
+                  <h4 class="font-weight-regular subtitle-1" v-t="'algorithmPage.paragraphList' + (i + 1)" />
+                  <br>
+                  <v-img :src="feature.img" width="200px"  class="d-block ml-auto mr-auto" style="object-fit: cover;"
                     :class="{ 'zoom-efect': hover }"></v-img>
-                  <h1 class="font-weight-regular">{{ feature.title }}</h1>
-                  <h4 class="font-weight-regular subtitle-1">
-                    {{ feature.text }}
-                  </h4>
                 </v-card>
               </v-hover>
             </v-col>
@@ -37,11 +36,6 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-dialog v-model="dialog" max-width="640px">
-      <v-card>
-        <youtube :video-id="videoId" @ready="ready" @playing="playing"></youtube>
-      </v-card>
-    </v-dialog>
   </section>
 </template>
 
@@ -50,23 +44,15 @@ export default {
   name: 'AlgorithmsSection',
   data() {
     return {
-      dialog: false,
-      videoId: "i8IvvHJssWE",
       features: [
         {
-          img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/algorithmPage1.jpeg"),
         },
         {
-          img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/algorithmPage2.jpeg"),
         },
         {
-          img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/algorithmPage3.jpeg"),
         },
       ],
     };

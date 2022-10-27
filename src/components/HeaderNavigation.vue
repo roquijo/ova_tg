@@ -113,12 +113,12 @@ export default {
 			"corte 1", "corte 2", "corte 3"
 		],
 		links: [{
-			icon: "mdi-domain",
-			title: "Media Monitoring",
+			icon: "mdi-chart-line",
+			title: "Algoritmos",
 			link: "/algorithmsView"
 		},
 		{
-			icon: "mdi-message-text",
+			icon: "mdi-head-lightbulb",
 			title: "Audience Measurement",
 			link: "/amrservices"
 		},

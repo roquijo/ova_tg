@@ -1,9 +1,7 @@
 <template>
-    <v-app>
-        <v-parallax dark src="@/assets/img/bgDownload.jpg" height="850">
-            <AlgorithmsSection />
-        </v-parallax>
-    </v-app>
+    <v-parallax dark src="@/assets/img/bgDownload.jpg" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
+        <AlgorithmsSection />
+    </v-parallax>
 </template>
 
 
