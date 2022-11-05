@@ -4,7 +4,7 @@
 			<v-list>
 				<v-list-item>
 					<v-list-item-avatar>
-						<img src="@/assets/img/logoU.png" alt="Logo" />
+						<img src="@/assets/img/logoCalidadU.png" alt="Logo" />
 					</v-list-item-avatar>
 					<v-list-item-content>
 						<v-list-item-title class="overflow-visible" v-t="'headerSection.title'"></v-list-item-title>
@@ -22,7 +22,7 @@
 					</v-list-item-icon>
 					<v-list-item-content>
 						<v-list-item-title class="subtitile-1">{{
-						text
+								text
 						}}</v-list-item-title>
 					</v-list-item-content>
 				</v-list-item>
@@ -32,7 +32,7 @@
 		<v-app-bar app :color="color" :flat="flat" dark :class="{ expand: flat }">
 			<a class="navbar-brand" href="/">
 				<v-toolbar-title>
-					<v-img src="@/assets/img/logoU.png" max-width="50px" />
+					<v-img src="@/assets/img/logoU.png" max-width="6rem" />
 				</v-toolbar-title>
 			</a>
 			<v-toolbar-title style="cursor: pointer" @click="$router.push('/')" class="pl-5" v-if="!isXs"
@@ -57,7 +57,7 @@
 						<v-menu open-on-hover offset-y transition="slide-x-transition" bottom right>
 							<template v-slot:activator="{ on, attrs }">
 								<v-btn text v-bind="attrs" v-on="on">
-									{{corte}}
+									{{ corte }}
 								</v-btn>
 							</template>
 							<v-list dense>
