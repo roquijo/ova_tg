@@ -19,5 +19,86 @@
     "paragraphList1": "Information that we give to the algorithm to work with to provide the expected solution. ",
     "paragraphList2": "Set of steps to arrive at the solution of the situation from the input data. ",
     "paragraphList3": "From the transformation of the input values during the process."
-  }
+  },
+  "cortes": [
+    "Fundamentals",
+    "Structures",
+    "Array"
+  ],
+  "corte1": [
+    {
+      "icon": "mdi-chart-line",
+      "title": "Algorithms",
+      "link": "/algorithmsView"
+    },
+    {
+      "icon": "mdi-arrow-u-right-bottom-bold",
+      "title": "Software life cycle",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-identifier",
+      "title": "Identifiers",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-database",
+      "title": "Type of data",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-plus-minus-variant",
+      "title": "Types of operators",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-vector-arrange-below",
+      "title": "Sequential structure",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-arrange-send-backward",
+      "title": "Selective structure",
+      "link": "/"
+    }
+  ],
+  "corte2": [
+    {
+      "icon": "mdi-chart-line",
+      "title": "Repetitive structure",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-variable",
+      "title": "Global variables",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-function",
+      "title": "Defined functions",
+      "link": "/"
+    }
+  ],
+  "corte3": [
+    {
+      "icon": "mdi-arrange-bring-to-front",
+      "title": "List data type",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-calculator-variant",
+      "title": "Operations",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-sitemap-outline",
+      "title": "Loops",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-view-list-outline",
+      "title": "Parallel lists",
+      "link": "/"
+    }
+  ]
 }

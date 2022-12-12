@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<v-navigation-drawer v-model="drawer" app temporary dark src="@/assets/img/bgDrawer.jpg">
+		<v-navigation-drawer v-model="drawer" app fixed temporary dark src="@/assets/img/bgDrawer.jpg">
 			<v-list>
 				<v-list-item>
 					<v-list-item-avatar>
@@ -15,22 +15,35 @@
 
 			<v-divider />
 
-			<v-list dense>
-				<v-list-item v-for="([icon, text, link], i) in itemsNav" :key="i" link :to="link">
-					<v-list-item-icon class="justify-center">
-						<v-icon>{{ icon }}</v-icon>
-					</v-list-item-icon>
-					<v-list-item-content>
-						<v-list-item-title class="subtitile-1">{{
-								text
-						}}</v-list-item-title>
-					</v-list-item-content>
-				</v-list-item>
+			<v-list>
+				<v-list-item-icon class="justify-center">
+					<v-icon>mdi-home-outline</v-icon>
+				</v-list-item-icon>
+				<v-btn text v-bind="attrs" v-on="on" @click="$router.push('/')">
+					Home
+				</v-btn>
+				<v-list-group v-for="(corte, index) in $t('cortes')" :key="index">
+					<template v-slot:activator>
+						<v-list-item-icon class="justify-center">
+							<v-icon>mdi-book-open-variant</v-icon>
+						</v-list-item-icon>
+						<v-list-item-content>
+							<v-list-item-title v-text="corte"></v-list-item-title>
+						</v-list-item-content>
+					</template>
+
+					<v-list-item v-for="(item, index) in $t('corte' + (index + 1))" :key="index" router :to="item.link">
+						<v-icon>{{ item.icon }}</v-icon>
+						<v-list-item-action>
+							<v-list-item-title>{{ item.title }}</v-list-item-title>
+						</v-list-item-action>
+					</v-list-item>
+				</v-list-group>
 			</v-list>
 		</v-navigation-drawer>
 
 		<v-app-bar app :color="color" :flat="flat" dark :class="{ expand: flat }">
-			<a class="navbar-brand" href="/">
+			<a class="navbar-brand" @click="$router.push('/')">
 				<v-toolbar-title>
 					<v-img src="@/assets/img/logoU.png" max-width="6rem" />
 				</v-toolbar-title>
@@ -53,7 +66,7 @@
 			</div>
 			<div v-else>
 				<v-row align="center" style="display: flex; align-items: center;">
-					<v-col sm="3" v-for="(corte, index) in cortes" :key="index">
+					<v-col sm="3" v-for="(corte, index) in $t('cortes')" :key="index">
 						<v-menu open-on-hover offset-y transition="slide-x-transition" bottom right>
 							<template v-slot:activator="{ on, attrs }">
 								<v-btn text v-bind="attrs" v-on="on">
@@ -61,7 +74,8 @@
 								</v-btn>
 							</template>
 							<v-list dense>
-								<v-list-item v-for="(item, index) in links" :key="index" router :to="item.link">
+								<v-list-item v-for="(item, index) in $t('corte' + (index + 1))" :key="index" router
+									:to="item.link">
 									<v-icon>{{ item.icon }}</v-icon>
 									<v-list-item-action>
 										<v-list-item-title>{{ item.title }}</v-list-item-title>
@@ -102,31 +116,7 @@ export default {
 	},
 	data: () => ({
 		drawer: null,
-		isXs: false,
-		itemsNav: [
-			["mdi-home-outline", "Home", "/"],
-			["mdi-book-open-variant", "Corte 1", "/algorithmsView"],
-			["mdi-book-open-variant", "Corte 2", "#"],
-			["mdi-book-open-variant", "Corte 3", "#"],
-		],
-		cortes: [
-			"corte 1", "corte 2", "corte 3"
-		],
-		links: [{
-			icon: "mdi-chart-line",
-			title: "Algoritmos",
-			link: "/algorithmsView"
-		},
-		{
-			icon: "mdi-head-lightbulb",
-			title: "Audience Measurement",
-			link: "/amrservices"
-		},
-		{
-			icon: "mdi-flag",
-			title: "Integration Analysis"
-		}
-		]
+		isXs: false
 	}),
 	props: {
 		color: String,

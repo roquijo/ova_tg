@@ -16,8 +16,89 @@
     "paragraphTitleList1": "Input (entrada).",
     "paragraphTitleList2": "Proceso.",
     "paragraphTitleList3": "Output (salida).",
-    "paragraphList1":  "Información que damos al algoritmo con el que va a trabajar para ofrecer la solución esperada. ",
+    "paragraphList1": "Información que damos al algoritmo con el que va a trabajar para ofrecer la solución esperada. ",
     "paragraphList2": "Conjunto de pasos para que, a partir de los datos de entrada, llegue a la solución de la situación. ",
     "paragraphList3": "Resultados, a partir de la transformación de los valores de entrada durante el proceso. "
-  }
+  },
+  "cortes": [
+    "Fundamentos",
+    "Estructuras",
+    "Arreglos"
+  ],
+  "corte1": [
+    {
+      "icon": "mdi-chart-line",
+      "title": "Algoritmos",
+      "link": "/algorithmsView"
+    },
+    {
+      "icon": "mdi-arrow-u-right-bottom-bold",
+      "title": "Ciclo de vida del software",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-identifier",
+      "title": "Identificadores",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-database",
+      "title": "Tipos de datos",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-plus-minus-variant",
+      "title": "Tipos de operadores",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-vector-arrange-below",
+      "title": "Estructura secuencial",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-arrange-send-backward",
+      "title": "Estructura selectiva",
+      "link": "/"
+    }
+  ],
+  "corte2": [
+    {
+      "icon": "mdi-chart-line",
+      "title": "Estructura repetitiva",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-variable",
+      "title": "Variables globales",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-function",
+      "title": "Funciones definidas",
+      "link": "/"
+    }
+  ],
+  "corte3": [
+    {
+      "icon": "mdi-arrange-bring-to-front",
+      "title": "Tipo de dato lista",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-calculator-variant",
+      "title": "Operaciones",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-sitemap-outline",
+      "title": "Recorridos",
+      "link": "/"
+    },
+    {
+      "icon": "mdi-view-list-outline",
+      "title": "Listas paralelas",
+      "link": "/"
+    }
+  ]
 }
