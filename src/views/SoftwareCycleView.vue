@@ -1,19 +1,19 @@
 <template>
     <v-parallax dark src="@/assets/img/bgDownload.jpg" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
-        <AlgorithmsSection />
+        <SoftwareCycleSection />
     </v-parallax>
 </template>
 
 
 <script>
-import AlgorithmsSection from '../components/fundamentos/AlgorithmsSection.vue'
+import SoftwareCycleSection from '../components/fundamentos/SoftwareCycleSection.vue'
 
 export default {
 
-    name: 'algorithmsView',
+    name: 'softwareCycleView',
 
     components: {
-        AlgorithmsSection
+        SoftwareCycleSection
     },
 };
 

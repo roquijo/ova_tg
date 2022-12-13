@@ -45,7 +45,7 @@ export default {
             },
             {
                 text: "mdi-instagram",
-                link: "https://instagram.com/joabson_arley/",
+                link: "",
             },
         ],
     }),

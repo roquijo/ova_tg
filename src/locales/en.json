@@ -1,25 +1,4 @@
 {
-  "headerSection": {
-    "title": "Universidad de Ibagué"
-  },
-  "principalPage": {
-    "title": "Fundamentals of logic",
-    "paragraph": "Logic is a science that studies the structure or forms of human thought (such as propositions, concepts and reasoning) to establish valid laws and principles to obtain points of view of truth.",
-    "paragraph2": "Logic plays an important role in computer science (databases, computational complexity, programming languages, artificial intelligence, design and verification of hardware and software systems, etc.). It is definitely one of the fundamentals that provide the necessary maturity and agility to assimilate the concepts, languages, techniques and computer tools that will emerge in the future.",
-    "paragraph3": "Test what you have learned so far with the following activity:",
-    "button": "Learn More"
-  },
-  "algorithmPage": {
-    "title": "Algorithms",
-    "paragraph": "An algorithm is a set of instructions defined, ordered and delimited to solve a problem, to make a calculation or to develop a task from an initial state and information, a series of ordered steps are followed to reach the solution of a situation. We use numerous algorithms to solve problems in our daily lives, such as: ",
-    "paragraph2": "A computer algorithm starts from an initial state and some input values, it follows a series of successive steps and arrives at a final state in which it has found a solution. In this sense the three parts of an algorithm are: ",
-    "paragraphTitleList1": "Input.",
-    "paragraphTitleList2": "Processes.",
-    "paragraphTitleList3": "Output Results.",
-    "paragraphList1": "Information that we give to the algorithm to work with to provide the expected solution. ",
-    "paragraphList2": "Set of steps to arrive at the solution of the situation from the input data. ",
-    "paragraphList3": "From the transformation of the input values during the process."
-  },
   "cortes": [
     "Fundamentals",
     "Structures",
@@ -34,7 +13,7 @@
     {
       "icon": "mdi-arrow-u-right-bottom-bold",
       "title": "Software life cycle",
-      "link": "/"
+      "link": "/softwareCycleView"
     },
     {
       "icon": "mdi-identifier",
@@ -100,5 +79,46 @@
       "title": "Parallel lists",
       "link": "/"
     }
-  ]
+  ],
+  "headerSection": {
+    "title": "Universidad de Ibagué"
+  },
+  "principalPage": {
+    "title": "Fundamentals of logic",
+    "paragraph": "Logic is a science that studies the structure or forms of human thought (such as propositions, concepts and reasoning) to establish valid laws and principles to obtain points of view of truth.",
+    "paragraph2": "Logic plays an important role in computer science (databases, computational complexity, programming languages, artificial intelligence, design and verification of hardware and software systems, etc.). It is definitely one of the fundamentals that provide the necessary maturity and agility to assimilate the concepts, languages, techniques and computer tools that will emerge in the future.",
+    "paragraph3": "Test what you have learned so far with the following activity:",
+    "button": "Learn More"
+  },
+  "algorithmPage": {
+    "title": "Algorithms",
+    "paragraph": "An algorithm is a set of instructions defined, ordered and delimited to solve a problem, to make a calculation or to develop a task from an initial state and information, a series of ordered steps are followed to reach the solution of a situation. We use numerous algorithms to solve problems in our daily lives, such as: ",
+    "paragraph2": "A computer algorithm starts from an initial state and some input values, it follows a series of successive steps and arrives at a final state in which it has found a solution. In this sense the three parts of an algorithm are: ",
+    "paragraphTitleList1": "Input.",
+    "paragraphTitleList2": "Processes.",
+    "paragraphTitleList3": "Output Results.",
+    "paragraphList1": "Information that we give to the algorithm to work with to provide the expected solution. ",
+    "paragraphList2": "Set of steps to arrive at the solution of the situation from the input data. ",
+    "paragraphList3": "From the transformation of the input values during the process."
+  },
+  "softwareCyclePage": {
+    "title": "Software Life Cycle and Analysis and Design Process for Problem Solving",
+    "paragraph": "In 1945, the mathematician George Polya wrote the first book describing the use of heuristic techniques in problem solving. In this book called How to solve it, the stages that are a reflection of the process that is followed at the time of solving any type of problem are presented. These stages are:",
+    "list": [
+      "Understanding the problem (analysis)",
+      "Propose a possible solution, considering alternative solutions (design)",
+      "Carrying out the proposed solution (implementation)",
+      "Verify that the result obtained is correct (testing)"
+    ],
+    "paragraph2": "With the above, any software goes through a series of phases throughout its life. Its life cycle comprises a series of stages among which are the stages for the process of analysis and design for the solution of problems and the following ones:",
+    "list2": [
+      "Planning: This initial phase of any project includes activities such as determining the scope of the project, conducting a feasibility study, analyzing the risks associated with the project, estimating the cost of the project, planning its timing and allocating resources to the various stages of the project.",
+      "Analysis: Is the process by which you try to find out what you really need and come to a proper understanding of the system requirements. This stage is of great importance because if you do not know precisely what you need, you will not be able to carry out the development process.",
+      "Design: The models used in the design phase represent the characteristics of the system that will allow us to implement it effectively, in other words, in this stage we define how the development will be done and what will be implemented to carry it out. The design is a complex stage and the design process has to be carried out iteratively.",
+      "Implementation: Before starting to write a line of code or create a table in our database, it is of great importance to have a good understanding of the problem to be solved and to have applied basic design principles that will allow us to build quality software. For this phase, it is necessary to select the appropriate tools, a development environment that facilitates the work and an appropriate programming language for the type of system to be built. The choice of these tools will depend largely on the design decisions that have been made.",
+      "Tests: The objective of this stage is to detect errors that may have been made in the previous stages of the project and to correct them. It is important to detect errors before the end user has to deal with them. In this sense, a test is a success when an error is detected.",
+      "Installation or deployment: For this stage, the environment in which the system must operate, both hardware and software, must be planned. In addition, to ensure the correct operation of the system, it is essential to take into account the dependencies that may exist between the different components of the system and their versions.",
+      "Use and maintenance: Typically consumes 40 to 80 percent of a software development company's resources. In fact, at 60 percent on average, it is probably the most important stage of the software lifecycle."
+    ]
+  }
 }

@@ -19,7 +19,7 @@
 				<v-list-item-icon class="justify-center">
 					<v-icon>mdi-home-outline</v-icon>
 				</v-list-item-icon>
-				<v-btn text v-bind="attrs" v-on="on" @click="$router.push('/')">
+				<v-btn text @click="$router.push('/')">
 					Home
 				</v-btn>
 				<v-list-group v-for="(corte, index) in $t('cortes')" :key="index">

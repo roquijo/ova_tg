@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AlgorithmsView from '../views/AlgorithmsView.vue'
+import SoftwareCycleView from '../views/SoftwareCycleView.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/algorithmsView',
     name: 'AlgorithmsView',
     component: AlgorithmsView
+  },
+  {
+    path: '/softwareCycleView',
+    name: 'SoftwareCycleView',
+    component: SoftwareCycleView
   }
 ]
 
