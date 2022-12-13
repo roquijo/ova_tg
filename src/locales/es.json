@@ -18,7 +18,7 @@
     {
       "icon": "mdi-identifier",
       "title": "Identificadores",
-      "link": "/"
+      "link": "/identifiersView"
     },
     {
       "icon": "mdi-database",
@@ -104,14 +104,14 @@
   "softwareCyclePage": {
     "title": "Ciclo de vida del software y Proceso de análisis y diseño para la solución de problemas",
     "paragraph": "En 1945, el matemático George Polya escribió el primer libro que describe la utilización de técnicas heurísticas en la resolución de problemas. En dicho libro llamado How to solve it, se presentan las etapas que son un reflejo del proceso que se sigue a la hora de resolver cualquier tipo de problema. Estas etapas son:",
-    "list" : [
+    "list": [
       "Comprender el problema (análisis)",
       "Plantear una posible solución, considerando soluciones alternativas (diseño)",
       "Llevar a cabo la solución planteada (implementación)",
       "Comprobar que el resultado obtenido es correcto (pruebas)"
     ],
     "paragraph2": "Con lo anterior, cualquier software va pasando por una serie de fases a lo largo de su vida. Su ciclo de vida comprende una serie de etapas entre las que se encuentran las etapas para el proceso de análisis y diseño para la solución de problemas y las siguientes:",
-    "list2" : [
+    "list2": [
       "Planificación: En esta fase inicial de cualquier proyecto se incluyen actividades como la determinación del ámbito del proyecto, la realización de un estudio de viabilidad, el análisis de los riesgos asociados al proyecto, una estimación del coste del proyecto, su planificación temporal y la asignación de recursos a las distintas etapas del proyecto.",
       "Análisis: Es el proceso mediante el cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema. Esta etapa es de gran importancia debido a que si no se sabe con precisión qué es lo que se necesita, no se podrá realizar el proceso de desarrollo.",
       "Diseño: Los modelos que se utilizan en la fase de diseño representan las características del sistema que nos permitirán implementarlo de forma efectiva, en otras palabras en esta etapa se define el cómo se hará el desarrollo y lo que se implementará para realizar el mismo. El diseño es una etapa compleja y el proceso de diseño ha de realizarse de forma iterativa.",
@@ -119,6 +119,20 @@
       "Pruebas: En esta etapa se tiene como objetivo detectar los errores que se hayan podido cometer en las etapas anteriores del proyecto y corregirlos. Es importante detectar los errores antes de que el usuario final tenga que enfrentarse a ellos. En ese sentido, una prueba es un éxito cuando se detecta un error.",
       "Instalación o despliegue: Para esta etapa se debe planificar el entorno en el que el sistema debe funcionar, tanto hardware como software. Además, para asegurar el correcto funcionamiento del sistema, resulta esencial que se tengan en cuenta las dependencias que pueden existir entre los distintos componentes del sistema y sus versiones.",
       "Uso y mantenimiento: Consume típicamente del 40 al 80 por ciento de los recursos de una empresa de desarrollo de software. De hecho, con un 60% de media, es probablemente la etapa más importante del ciclo de vida del software."
+    ]
+  },
+  "IdentifiersPage": {
+    "title": "Identificadores: variables y constantes",
+    "paragraph": "Las variables y constantes permiten almacenar datos durante la ejecucion de un programa.",
+    "titleCardVar": "Variable",
+    "titleCardConst": "Constante",
+    "tableVar": [
+      "Se pueden usar variables en los lenguajes de programacion para almacenar diferentes tipos de datos como numeros, palabras y cadenas en la memoria del ordenador.",
+      "El valor de una variable puede ser modificada."
+    ],
+    "tableConst": [
+      "A las constantes se les debe asignar un valor al momento de declararlas.",
+      "El valor de una constante no puede ser modificada."
     ]
   }
 }

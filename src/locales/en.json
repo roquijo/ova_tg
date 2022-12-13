@@ -18,7 +18,7 @@
     {
       "icon": "mdi-identifier",
       "title": "Identifiers",
-      "link": "/"
+      "link": "/identifiersView"
     },
     {
       "icon": "mdi-database",
@@ -119,6 +119,20 @@
       "Tests: The objective of this stage is to detect errors that may have been made in the previous stages of the project and to correct them. It is important to detect errors before the end user has to deal with them. In this sense, a test is a success when an error is detected.",
       "Installation or deployment: For this stage, the environment in which the system must operate, both hardware and software, must be planned. In addition, to ensure the correct operation of the system, it is essential to take into account the dependencies that may exist between the different components of the system and their versions.",
       "Use and maintenance: Typically consumes 40 to 80 percent of a software development company's resources. In fact, at 60 percent on average, it is probably the most important stage of the software lifecycle."
+    ]
+  },
+  "IdentifiersPage": {
+    "title": "Identifiers: variables and constants",
+    "paragraph": "Variables and constants are used to store data during the execution of a program.",
+    "titleCardVar": "Variable",
+    "titleCardConst": "Constant",
+    "tableVar": [
+      "Variables can be used in programming languages to store different types of data such as numbers, words and strings in the computer's memory.",
+      " A variable's value can be modified."
+    ],
+    "tableConst": [
+      "Constants must be assigned a value at the time of declaring the constant.",
+      "The value of a constant cannot be changed."
     ]
   }
 }
