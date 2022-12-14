@@ -134,5 +134,10 @@
       "A las constantes se les debe asignar un valor al momento de declararlas.",
       "El valor de una constante no puede ser modificada."
     ]
+  },
+  "typeOfDataSection": {
+    "title": "Tipos de datos",
+    "paragraph": "Un tipo de datos es un medio de clasificar el tipo de datos que una variable u objeto puede contener en la programación. Los tipos de datos son un factor importante en todos los lenguajes de programación en informática, incluyendo C#, C++, JavaScript y Visual Basic. Cuando los programadores desarrollan software, ya sea de escritorio o basado en la web, los tipos de datos deben asignarse y aplicarse correctamente para garantizar resultados adecuados y un programa libre de errores.",
+    "paragraph2": "El tipo de datos determina qué operaciones pueden ejecutarse con seguridad para desarrollar, transponer y aplicar la variable a otro cálculo."
   }
 }

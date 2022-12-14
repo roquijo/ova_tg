@@ -134,5 +134,10 @@
       "Constants must be assigned a value at the time of declaring the constant.",
       "The value of a constant cannot be changed."
     ]
+  },
+  "typeOfDataSection": {
+    "title": "Type of data",
+    "paragraph": "A data type is a means of classifying the type of data that a variable or object can contain in programming. Data types are an important factor in all computer programming languages, including C#, C++, JavaScript and Visual Basic. When programmers develop software, whether desktop or web-based, data types must be assigned and applied correctly to ensure proper results and an error-free program.",
+    "paragraph2": "The data type determines which operations can be safely executed to develop, transpose and apply the variable to another calculation."
   }
 }
