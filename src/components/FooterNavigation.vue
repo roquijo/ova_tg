@@ -33,19 +33,19 @@ export default {
         icons: [
             {
                 text: "mdi-facebook",
-                link: "",
+                link: "https://www.facebook.com/SoyUnibague",
             },
             {
                 text: "mdi-twitter",
-                link: "",
+                link: "https://twitter.com/unibagueoficial",
             },
             {
                 text: "mdi-linkedin",
-                link: "",
+                link: "https://www.linkedin.com/school/universidad-de-ibagué/",
             },
             {
                 text: "mdi-instagram",
-                link: "",
+                link: "https://www.instagram.com/soyunibague",
             },
         ],
     }),
