@@ -101,7 +101,7 @@
     "paragraphList2": "Conjunto de pasos para que, a partir de los datos de entrada, llegue a la solución de la situación. ",
     "paragraphList3": "Resultados, a partir de la transformación de los valores de entrada durante el proceso. "
   },
-  "softwareCyclePage": {
+  "softwareLifeCyclePage": {
     "title": "Ciclo de vida del software y Proceso de análisis y diseño para la solución de problemas",
     "paragraph": "En 1945, el matemático George Polya escribió el primer libro que describe la utilización de técnicas heurísticas en la resolución de problemas. En dicho libro llamado How to solve it, se presentan las etapas que son un reflejo del proceso que se sigue a la hora de resolver cualquier tipo de problema. Estas etapas son:",
     "list": [
@@ -135,7 +135,7 @@
       "El valor de una constante no puede ser modificada."
     ]
   },
-  "typeOfDataSection": {
+  "typeOfDataPage": {
     "title": "Tipos de datos",
     "paragraph": "Un tipo de datos es un medio de clasificar el tipo de datos que una variable u objeto puede contener en la programación. Los tipos de datos son un factor importante en todos los lenguajes de programación en informática, incluyendo C#, C++, JavaScript y Visual Basic. Cuando los programadores desarrollan software, ya sea de escritorio o basado en la web, los tipos de datos deben asignarse y aplicarse correctamente para garantizar resultados adecuados y un programa libre de errores.",
     "paragraph2": "El tipo de datos determina qué operaciones pueden ejecutarse con seguridad para desarrollar, transponer y aplicar la variable a otro cálculo."

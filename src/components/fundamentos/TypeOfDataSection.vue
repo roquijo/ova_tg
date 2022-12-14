@@ -4,17 +4,17 @@
             <v-col>
                 <v-row align="center" justify="center">
                     <br>
-                    <h2 class="display-2 font-weight-bold mb-4" justify="center" v-t="'typeOfDataSection.title'" />
+                    <h2 class="display-2 font-weight-bold mb-4" justify="center" v-t="'typeOfDataPage.title'" />
                 </v-row>
             </v-col>
         </v-row>
         <v-row align="center" justify="center">
-            <h3 class="font-weight-light" v-t="'typeOfDataSection.paragraph'" />
+            <h3 class="font-weight-light" v-t="'typeOfDataPage.paragraph'" />
         </v-row>
         <br>
         <br>
         <v-row align="center">
-            <h3 class="font-weight-light" v-t="'typeOfDataSection.paragraph2'" />
+            <h3 class="font-weight-light" v-t="'typeOfDataPage.paragraph2'" />
         </v-row>
         <br>
         <br>
