@@ -4,6 +4,8 @@ import HomeView from '../views/HomeView.vue'
 import AlgorithmsView from '../views/AlgorithmsView.vue'
 import SoftwareCycleView from '../views/SoftwareCycleView.vue'
 import IdentifiersView from '../views/IdentifiersView.vue'
+import TypeOfDataView from '../views/TypeOfDataView.vue'
+
 
 
 Vue.use(VueRouter)
@@ -28,6 +30,12 @@ const routes = [
     path: '/identifiersView',
     name: 'IdentifiersView',
     component: IdentifiersView
+  }
+  ,
+  {
+    path: '/typeOfDataView',
+    name: 'TypeOfDataView',
+    component: TypeOfDataView
   }
 ]
 

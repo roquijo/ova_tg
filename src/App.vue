@@ -11,16 +11,6 @@
   </v-app>
 </template>
 
-<style scoped>
-.v-main {
-  background-image: url("~@/assets/img/bgMain.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-</style>
-
-
 <script>
 import navigation from "./components/HeaderNavigation.vue";
 import foote from "./components/FooterNavigation.vue";
