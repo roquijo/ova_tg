@@ -23,7 +23,7 @@
     {
       "icon": "mdi-database",
       "title": "Type of data",
-      "link": "/"
+      "link": "/typeOfDataView"
     },
     {
       "icon": "mdi-plus-minus-variant",
