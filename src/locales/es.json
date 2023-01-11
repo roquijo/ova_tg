@@ -28,7 +28,7 @@
     {
       "icon": "mdi-plus-minus-variant",
       "title": "Tipos de operadores",
-      "link": "/"
+      "link": "/typeOfOperatorsView"
     },
     {
       "icon": "mdi-vector-arrange-below",
@@ -139,5 +139,37 @@
     "title": "Tipos de datos",
     "paragraph": "Un tipo de datos es un medio de clasificar el tipo de datos que una variable u objeto puede contener en la programación. Los tipos de datos son un factor importante en todos los lenguajes de programación en informática, incluyendo C#, C++, JavaScript y Visual Basic. Cuando los programadores desarrollan software, ya sea de escritorio o basado en la web, los tipos de datos deben asignarse y aplicarse correctamente para garantizar resultados adecuados y un programa libre de errores.",
     "paragraph2": "El tipo de datos determina qué operaciones pueden ejecutarse con seguridad para desarrollar, transponer y aplicar la variable a otro cálculo."
+  },
+  "typeOfOperatorsPage": {
+    "title": "Tipos de operadores",
+    "paragraph": "Las expresiones realizan acciones específicas, según un operador, con uno o dos operadores. Un operando puede ser una constante, una variable o el resultado de una función y pueden ser aritméticos, lógicos y relacionales. La funcionalidad de un operador puede variar según el tipo de datos de los operandos especificados en la expresión.",
+    "paragraph2": "Prueba lo aprendido aquí",
+    "titleList": [
+      "Operadores aritméticos",
+      "Operadores relacionales",
+      "Operadores lógicos"
+    ],
+    "textList1": [
+      "Realizan operaciones matemáticas, como sumas o restas con operandos.",
+      "Hay dos tipos de operadores matemáticos, los operadores unarios y los operadores binarios.",
+      "Los operadores unarios son operadores aritméticos que realizan una acción sobre un solo operando. Ejemplo:",
+      "A = 1;  B = A++; // A será igual a 1, B será igual a 2;"
+    ],
+    "textList2": [
+      "Comparan el primer operando con el segundo para probar la validez de la relación especificada.",
+      "< : Menor que",
+      "> : Mayor que",
+      "== : Igual",
+      "!= : Diferente",
+      "<= : Menor o Igual que",
+      ">= : Mayor o Igual que"
+    ],
+    "textList3": [
+      "Devuelven el valor TRUE (1) o FALSE (0). Se tienen 4 operadores lógicos:",
+      "AND: Verdadero sólo si los dos elementos son verdaderos.",
+      "OR: Verdadero si cualquiera de los elementos es verdadero.",
+      "XOR: Verdadero si cualquiera de las expresiones (pero no ambas) es verdadera.",
+      "NOT: Cambia el valor de Falso a Verdadero y viceversa."
+    ]
   }
 }

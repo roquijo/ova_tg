@@ -28,7 +28,7 @@
     {
       "icon": "mdi-plus-minus-variant",
       "title": "Types of operators",
-      "link": "/"
+      "link": "/typeOfOperatorsView"
     },
     {
       "icon": "mdi-vector-arrange-below",
@@ -139,5 +139,37 @@
     "title": "Type of data",
     "paragraph": "A data type is a means of classifying the type of data that a variable or object can contain in programming. Data types are an important factor in all computer programming languages, including C#, C++, JavaScript and Visual Basic. When programmers develop software, whether desktop or web-based, data types must be assigned and applied correctly to ensure proper results and an error-free program.",
     "paragraph2": "The data type determines which operations can be safely executed to develop, transpose and apply the variable to another calculation."
+  },
+  "typeOfOperatorsPage": {
+    "title": "Type of operators",
+    "paragraph": "Expressions perform specific actions, according to an operator, with one or two operands. An operand can be a constant, a variable or the result of a function and can be arithmetic, logical and relational. The functionality of an operator may vary depending on the data type of the operands specified in the expression.",
+    "paragraph2": "Test what you learned here",
+    "titleList": [
+      "Arithmetic operators",
+      "Relational operators",
+      "Logical operators"
+    ],
+    "textList1": [
+      "They perform mathematical operations, such as addition or subtraction with operands.",
+      "There are two types of mathematical operators, unary operators and binary operators.",
+      "Unary operators are arithmetic operators that perform an action on a single operand. Example:",
+      "A=1;  B = A++; // A will be equal to 1, B will be equal to 2;"
+    ],
+    "textList2": [
+      "Compare the first operand with the second operand to test the validity of the specified relationship.",
+      "< : Smaller than",
+      "> : Greater than",
+      "== : Equal",
+      "!= : Diferent",
+      "<= : Less than or equal to",
+      ">= : Greater than or equal to"
+    ],
+    "textList3": [
+      "They return TRUE (1) or FALSE (0). There are 4 logical operators:",
+      "AND: True only if both elements are true.",
+      "OR: True if either of the elements is true.",
+      "XOR: True if either (but not both) of the expressions is true.",
+      "NOT: Changes the value from False to True and vice versa."
+    ]
   }
 }

@@ -5,6 +5,7 @@ import AlgorithmsView from '../views/AlgorithmsView.vue'
 import SoftwareCycleView from '../views/SoftwareCycleView.vue'
 import IdentifiersView from '../views/IdentifiersView.vue'
 import TypeOfDataView from '../views/TypeOfDataView.vue'
+import TypeOfOperatorsView from '../views/TypeOfOperatorsView.vue'
 
 
 
@@ -36,6 +37,11 @@ const routes = [
     path: '/typeOfDataView',
     name: 'TypeOfDataView',
     component: TypeOfDataView
+  },
+  {
+    path: '/typeOfOperatorsView',
+    name: 'TypeOfOperatorsView',
+    component: TypeOfOperatorsView
   }
 ]
 

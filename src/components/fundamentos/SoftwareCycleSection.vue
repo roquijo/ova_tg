@@ -48,15 +48,6 @@
         </v-container>
     </section>
 </template>
-  
-  
-
-<script>
-export default {
-
-}
-</script>
-
 <style>
 span {
     font-size: large;
