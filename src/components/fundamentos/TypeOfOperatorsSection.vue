@@ -11,7 +11,7 @@
                         <br>
                         <h3 class="font-weight-light" v-t="'typeOfOperatorsPage.paragraph'" />
                         <br>
-                        <a href="https://www.cerebriti.com/juegos-de-matematicas/tipos-de-operadores" target="_blank" style="color: #000;">
+                        <a href="https://www.cerebriti.com/juegos-de-matematicas/tipos-de-operadores" target="_blank" style="color: white">
                             <h3 class="font-weight-light" v-t="'typeOfOperatorsPage.paragraph2'" />
                         </a>
                     </v-col>
