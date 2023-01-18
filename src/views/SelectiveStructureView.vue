@@ -1,5 +1,5 @@
 <template>
-    <v-parallax  src="@/assets/img/selectiveStructureBg.png" height=""
+    <v-parallax  src="@/assets/img/fundamentos/selectiveStructureBg.png" height=""
         style="padding-top: 6rem; padding-bottom: 1rem;">
         <SelectiveStructureSection />
     </v-parallax>

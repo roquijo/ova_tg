@@ -20,7 +20,7 @@
                     allowfullscreen></iframe>
             </v-col>
             <v-col cols="12" md="6" align="center">
-                <v-img src="@/assets/img/selectiveStructureImg.png" width="80%" />
+                <v-img src="@/assets/img/fundamentos/selectiveStructureImg.png" width="80%" />
             </v-col>
         </v-row>
         <v-row align="center" class="mb-2">
@@ -37,7 +37,7 @@
                     allowfullscreen></iframe>
             </v-col>
             <v-col cols="12" md="6" align="center">
-                <v-img src="@/assets/img/selectiveStructureImg2.png" width="80%" />
+                <v-img src="@/assets/img/fundamentos/selectiveStructureImg2.png" width="80%" />
             </v-col>
         </v-row>
     </v-container>

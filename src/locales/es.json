@@ -181,5 +181,13 @@
     "paragraph": "Son sentencias de programación que nos permiten elegir entre dos a más opciones o caminos.",
     "paragraph2": "La estructura selectiva simple, primero realiza la lectura de datos, posteriormente evalúa la expresión lógica si esta es verdadera se ejecutan las siguientes instrucciones en caso de que la expresión lógica se falsa no se realiza nada y termina el proceso y solo utiliza las palabras de Si entonces (If, then):",
     "paragraph3": "La estructura selectiva compuesta tiene un punto de decisión que evalúa una condición y si es verdadero, ejecuta un conjunto de acciones y si es falso ejecuta otro conjunto de acciones."
+  },
+  "repetitiveStructure": {
+    "title": "Estructuras Repetitivas",
+    "paragraph": "Las estructuras repetitivas se caracterizan por tener un punto inicial de partida, una condición la cual se encarga de ejecutar un número determinado de acciones hasta que esta condición no sea válida (no se cumpla). En este sentido, las estructuras repetitivas se utilizan para realizar un determinado tipo de instrucciones en un número finito de veces.",
+    "paragraphTitle1": "Sentencia Mientras (while):",
+    "paragraph2": "Realiza cierto número de acciones mientras se cumpla una condición. A diferencia del for, no necesariamente necesita un contador, sino que se cumpla una determinada condición ya sea, por ejemplo, que esté en un intervalo, que algo sea mayor que otro etc.",
+    "paragraphTitle2": "Sentencia Para (For):",
+    "paragraph3": "Esta sentencia se caracteriza por tener un contador, una condición que involucra este contador y una sentencia de incremento o decremento dependiendo el caso."
   }
 }

@@ -28,7 +28,7 @@
                             </v-row>
                             <br>
                             <v-col cols="12" md="12" align="center" justify="center">
-                                <v-img src="@/assets/img/SoftwareCycle.png" max-width="30em" />
+                                <v-img src="@/assets/img/fundamentos/SoftwareCycle.png" max-width="30em" />
                             </v-col>
                         </v-col>
                         <v-row align="center" justify="center">

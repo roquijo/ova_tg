@@ -46,13 +46,13 @@ export default {
     return {
       features: [
         {
-          img: require("@/assets/img/algorithmPage1.jpeg"),
+          img: require("@/assets/img/fundamentos/algorithmPage1.jpeg"),
         },
         {
-          img: require("@/assets/img/algorithmPage2.jpeg"),
+          img: require("@/assets/img/fundamentos/algorithmPage2.jpeg"),
         },
         {
-          img: require("@/assets/img/algorithmPage3.jpeg"),
+          img: require("@/assets/img/fundamentos/algorithmPage3.jpeg"),
         },
       ],
     };

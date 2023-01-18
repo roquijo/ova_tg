@@ -1,5 +1,5 @@
 <template>
-    <v-parallax dark src="@/assets/img/bgDownload.jpg" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
+    <v-parallax dark src="@/assets/img/fundamentos/bgDownload.jpg" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
         <AlgorithmsSection />
     </v-parallax>
 </template>

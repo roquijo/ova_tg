@@ -1,5 +1,5 @@
 <template>
-    <v-parallax dark src="@/assets/img/secuencialEstructureBg.jpg" height="rem"
+    <v-parallax dark src="@/assets/img/fundamentos/secuencialEstructureBg.jpg" height="rem"
         style="padding-top: 6rem; padding-bottom: 1rem;">
         <SequentialStructureSection />
     </v-parallax>
