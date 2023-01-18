@@ -4,7 +4,7 @@
             <v-col cols="10">
                 <v-row align="center">
                     <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down">
-                        <v-img src="@/assets/img/typeOperators.jpg" class="d-block ml-auto mr-auto" max-width="350px" />
+                        <v-img src="@/assets/img/TypeOperators.jpg" class="d-block ml-auto mr-auto" max-width="350px" />
                     </v-col>
                     <v-col cols="12" md="6" xl="8">
                         <h2 class="display-2 font-weight-bold mb-4" v-t="'typeOfOperatorsPage.title'" />
