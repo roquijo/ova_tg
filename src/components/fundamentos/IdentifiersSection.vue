@@ -4,12 +4,12 @@
             <v-col>
                 <v-row align="center" justify="center">
                     <br>
-                    <h2 class="display-2 font-weight-bold mb-4" justify="center" v-t="'IdentifiersPage.title'" />
+                    <h2 class="display-2 font-weight-bold mb-4" justify="center" v-t="'identifiersPage.title'" />
                 </v-row>
             </v-col>
         </v-row>
         <v-row align="center" justify="center">
-            <h3 class="font-weight-light" v-t="'IdentifiersPage.paragraph'" />
+            <h3 class="font-weight-light" v-t="'identifiersPage.paragraph'" />
         </v-row>
         <br>
         <br>
@@ -17,8 +17,8 @@
             <v-col cols="12" md="6">
                 <v-card class="mx-auto" max-width="344">
                     <v-card-text>
-                        <p class="text-h4 text--primary" v-t="'IdentifiersPage.titleCardVar'" />
-                        <p v-for="(item, index) in $t('IdentifiersPage.tableVar')" :key="index">
+                        <p class="text-h4 text--primary" v-t="'identifiersPage.titleCardVar'" />
+                        <p v-for="(item, index) in $t('identifiersPage.tableVar')" :key="index">
                             {{ item }}
                         </p>
                     </v-card-text>
@@ -27,8 +27,8 @@
             <v-col cols="12" md="6">
                 <v-card class="mx-auto" max-width="344">
                     <v-card-text>
-                        <p class="text-h4 text--primary" v-t="'IdentifiersPage.titleCardConst'" />
-                        <p v-for="(item, index) in $t('IdentifiersPage.tableConst')" :key="index">
+                        <p class="text-h4 text--primary" v-t="'identifiersPage.titleCardConst'" />
+                        <p v-for="(item, index) in $t('identifiersPage.tableConst')" :key="index">
                             {{ item }}
                         </p>
                     </v-card-text>

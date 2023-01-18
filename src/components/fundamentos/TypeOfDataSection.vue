@@ -19,7 +19,7 @@
         <br>
         <br>
         <v-row align="center" justify="center">
-            <v-img src="@/assets/img/TypeOfData.png" max-width="85vw" />
+            <v-img src="@/assets/img/typeOfData.png" max-width="85vw" />
         </v-row>
         <br>
         <br>

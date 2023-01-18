@@ -33,12 +33,12 @@
     {
       "icon": "mdi-vector-arrange-below",
       "title": "Sequential structure",
-      "link": "/"
+      "link": "/sequentialStructureView"
     },
     {
       "icon": "mdi-arrange-send-backward",
       "title": "Selective structure",
-      "link": "/"
+      "link": "/selectiveStructureView"
     }
   ],
   "corte2": [
@@ -121,7 +121,7 @@
       "Use and maintenance: Typically consumes 40 to 80 percent of a software development company's resources. In fact, at 60 percent on average, it is probably the most important stage of the software lifecycle."
     ]
   },
-  "IdentifiersPage": {
+  "identifiersPage": {
     "title": "Identifiers: variables and constants",
     "paragraph": "Variables and constants are used to store data during the execution of a program.",
     "titleCardVar": "Variable",
@@ -171,5 +171,15 @@
       "XOR: True if either (but not both) of the expressions is true.",
       "NOT: Changes the value from False to True and vice versa."
     ]
+  },
+  "sequentialStructurePage": {
+    "title": "Sequential Structure",
+    "paragraph": "The sequential structure is one in which one action (instruction) follows another in sequence. The tasks follow each other in such a way that the output of one is the input of the next and so on until the end of the process. For example, you have a telephone and you need to call someone but you do not know how to do it:"
+  },
+  "selectiveStructurePage": {
+    "title": "Selective Structure",
+    "paragraph": "These are programming statements that allow us to choose between two or more options or paths.",
+    "paragraph2": "The simple selective structure, first performs the data reading, then evaluates the logical expression if it is true the following instructions are executed in case the logical expression is false nothing is done and ends the process and only uses the words If then (If, then):",
+    "paragraph3": "The compound selective structure has a decision point that evaluates a condition and if true, executes a set of actions and if false executes another set of actions."
   }
 }

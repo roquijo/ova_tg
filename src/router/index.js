@@ -6,8 +6,8 @@ import SoftwareCycleView from '../views/SoftwareCycleView.vue'
 import IdentifiersView from '../views/IdentifiersView.vue'
 import TypeOfDataView from '../views/TypeOfDataView.vue'
 import TypeOfOperatorsView from '../views/TypeOfOperatorsView.vue'
-
-
+import SequentialStructureView from '../views/SequentialStructureView.vue'
+import SelectiveStructureView from '../views/SelectiveStructureView.vue'
 
 Vue.use(VueRouter)
 
@@ -42,6 +42,16 @@ const routes = [
     path: '/typeOfOperatorsView',
     name: 'TypeOfOperatorsView',
     component: TypeOfOperatorsView
+  },
+  {
+    path: '/sequentialStructureView',
+    name: 'SequentialStructureView',
+    component: SequentialStructureView
+  },
+  {
+    path: '/selectiveStructureView',
+    name: 'SelectiveStructureView',
+    component: SelectiveStructureView
   }
 ]
 

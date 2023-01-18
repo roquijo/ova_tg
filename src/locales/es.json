@@ -33,12 +33,12 @@
     {
       "icon": "mdi-vector-arrange-below",
       "title": "Estructura secuencial",
-      "link": "/"
+      "link": "/sequentialStructureView"
     },
     {
       "icon": "mdi-arrange-send-backward",
       "title": "Estructura selectiva",
-      "link": "/"
+      "link": "/selectiveStructureView"
     }
   ],
   "corte2": [
@@ -121,7 +121,7 @@
       "Uso y mantenimiento: Consume típicamente del 40 al 80 por ciento de los recursos de una empresa de desarrollo de software. De hecho, con un 60% de media, es probablemente la etapa más importante del ciclo de vida del software."
     ]
   },
-  "IdentifiersPage": {
+  "identifiersPage": {
     "title": "Identificadores: variables y constantes",
     "paragraph": "Las variables y constantes permiten almacenar datos durante la ejecucion de un programa.",
     "titleCardVar": "Variable",
@@ -171,5 +171,15 @@
       "XOR: Verdadero si cualquiera de las expresiones (pero no ambas) es verdadera.",
       "NOT: Cambia el valor de Falso a Verdadero y viceversa."
     ]
+  },
+  "sequentialStructurePage": {
+    "title": "Estructura secuencial",
+    "paragraph": "La estructura secuencial es aquella en la que una acción (instrucción) sigue a otra en secuencia. Las tareas se suceden de tal modo que la salida de una es la entrada de la siguiente y así sucesivamente hasta el fin del proceso. Por ejemplo, se tiene un teléfono y se necesita llamar a alguien pero no se sabe cómo hacerlo:"
+  },
+  "selectiveStructurePage": {
+    "title": "Estructura selectiva",
+    "paragraph": "Son sentencias de programación que nos permiten elegir entre dos a más opciones o caminos.",
+    "paragraph2": "La estructura selectiva simple, primero realiza la lectura de datos, posteriormente evalúa la expresión lógica si esta es verdadera se ejecutan las siguientes instrucciones en caso de que la expresión lógica se falsa no se realiza nada y termina el proceso y solo utiliza las palabras de Si entonces (If, then):",
+    "paragraph3": "La estructura selectiva compuesta tiene un punto de decisión que evalúa una condición y si es verdadero, ejecuta un conjunto de acciones y si es falso ejecuta otro conjunto de acciones."
   }
 }
