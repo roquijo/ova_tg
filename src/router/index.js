@@ -52,6 +52,11 @@ const routes = [
     path: '/selectiveStructureView',
     name: 'SelectiveStructureView',
     component: SelectiveStructureView
+  },
+  {
+    path: '/prueba',
+    name: 'prueba',
+    component: SelectiveStructureView
   }
 ]
 
