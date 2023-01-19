@@ -224,7 +224,7 @@
     ],
     "paragraph2": "Se podrán realizar otras operaciones como destruir la lista completamente, contar el número de elementos de la misma, añadir un elemento en una determinada posición, borrar un elemento de una determinada posición, comprobar si hay un dato en la lista, etc."
   },
-  "parallelLists": {
+  "parallelListsPage": {
     "title": "Listas paralelas",
     "paragraph": "Dos listas son paralelas cuando hay una relación entre las componentes de igual subíndice (misma posición) de una lista y otra.",
     "paragraph2": "Ejemplo: Se tienen dos listas; en la primera se tienen nombres de alumnos y en la segunda las edades de estos. La lista de nombres es paralela a la lista edades si en la componente 0 de cada lista se almacena información relacionada a una persona (Juan - 12 años) Es decir hay una relación entre cada componente de las dos listas.",

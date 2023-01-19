@@ -224,7 +224,7 @@
     ],
     "paragraph2": "Other operations can be performed such as destroying the list completely, counting the number of items in the list, adding an item in a certain position, deleting an item from a certain position, checking if there is a data in the list, etc."
   },
-  "parallelLists": {
+  "parallelListsPage": {
     "title": "Parallel lists",
     "paragraph": "Two lists are parallel when there is a relationship between the components of the same subscript (same position) of one list and the other.",
     "paragraph2": "Example: We have two lists; in the first one we have names of students and in the second one we have their ages. The list of names is parallel to the list of ages if in component 0 of each list is stored information related to a person (John - 12 years old). In other words, there is a relationship between each component of the two lists.",
