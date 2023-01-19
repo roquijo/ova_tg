@@ -6,7 +6,7 @@
 
 
 <script>
-import TypeOfOperatorsSection from '../components/fundamentos/TypeOfOperatorsSection.vue'
+import TypeOfOperatorsSection from '../../components/fundamentos/TypeOfOperatorsSection.vue'
 
 export default {
 

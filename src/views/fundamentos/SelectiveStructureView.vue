@@ -7,7 +7,7 @@
 
 
 <script>
-import SelectiveStructureSection from '../components/fundamentos/SelectiveStructureSection.vue'
+import SelectiveStructureSection from '../../components/fundamentos/SelectiveStructureSection.vue'
 
 export default {
 

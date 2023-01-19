@@ -6,7 +6,7 @@
 
 
 <script>
-import SoftwareCycleSection from '../components/fundamentos/SoftwareCycleSection.vue'
+import SoftwareCycleSection from '../../components/fundamentos/SoftwareCycleSection.vue'
 
 export default {
 

@@ -6,7 +6,7 @@
 
 
 <script>
-import AlgorithmsSection from '../components/fundamentos/AlgorithmsSection.vue'
+import AlgorithmsSection from '../../components/fundamentos/AlgorithmsSection.vue'
 
 export default {
 

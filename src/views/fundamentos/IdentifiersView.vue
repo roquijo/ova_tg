@@ -6,7 +6,7 @@
 
 
 <script>
-import IdentifiersSection from '../components/fundamentos/IdentifiersSection.vue'
+import IdentifiersSection from '../../components/fundamentos/IdentifiersSection.vue'
 
 export default {
 

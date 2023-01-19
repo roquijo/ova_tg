@@ -7,7 +7,7 @@
 
 
 <script>
-import SequentialStructureSection from '../components/fundamentos/SequentialStructureSection.vue'
+import SequentialStructureSection from '../../components/fundamentos/SequentialStructureSection.vue'
 
 export default {
 

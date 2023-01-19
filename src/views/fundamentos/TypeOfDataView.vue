@@ -6,7 +6,7 @@
 
 
 <script>
-import TypeOfDataSection from '../components/fundamentos/TypeOfDataSection.vue'
+import TypeOfDataSection from '../../components/fundamentos/TypeOfDataSection.vue'
 
 export default {
 
