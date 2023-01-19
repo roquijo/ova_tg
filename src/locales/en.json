@@ -206,5 +206,28 @@
       "These are lists that have a beginning and an end.",
       "In these lists the last element points to the first one, therefore we could be always going through them, since they have no end."
     ]
+  },
+  "operationsPage": {
+    "title": "Operations on a list or array",
+    "paragraph": "The basic operations that can be performed on any list, regardless of its type, are as follows:",
+    "listTitle": [
+      "Create:",
+      "Insert:",
+      "Delete:",
+      "Empty:"
+    ],
+    "listText": [
+      "This operation generates everything necessary to work with a list.",
+      "Allows you to add an item to the list. In this case we must indicate to the program whether we are going to add the new element at the beginning of the list or at the end of the list.",
+      "Will be used to delete an item from the list. We can also indicate whether we want to delete the first or the last one.",
+      "Will return true if the list is empty."
+    ],
+    "paragraph2": "Other operations can be performed such as destroying the list completely, counting the number of items in the list, adding an item in a certain position, deleting an item from a certain position, checking if there is a data in the list, etc."
+  },
+  "parallelLists": {
+    "title": "Parallel lists",
+    "paragraph": "Two lists are parallel when there is a relationship between the components of the same subscript (same position) of one list and the other.",
+    "paragraph2": "Example: We have two lists; in the first one we have names of students and in the second one we have their ages. The list of names is parallel to the list of ages if in component 0 of each list is stored information related to a person (John - 12 years old). In other words, there is a relationship between each component of the two lists.",
+    "paragraph3": "This relationship is known only to the programmer and is done to facilitate the development of algorithms that process the data stored in the data structures."
   }
 }
