@@ -182,12 +182,29 @@
     "paragraph2": "The simple selective structure, first performs the data reading, then evaluates the logical expression if it is true the following instructions are executed in case the logical expression is false nothing is done and ends the process and only uses the words If then (If, then):",
     "paragraph3": "The compound selective structure has a decision point that evaluates a condition and if true, executes a set of actions and if false executes another set of actions."
   },
-  "repetitiveStructure": {
+  "repetitiveStructurePage": {
     "title": "Repetitive Structures",
     "paragraph": "Repetitive structures are characterized by having an initial starting point, a condition which is responsible for executing a certain number of actions until this condition is invalid (not met). In this sense, repetitive structures are used to perform a certain type of instructions in a finite number of times.",
     "paragraphTitle1": "Sentence While:",
     "paragraph2": "Performs a certain number of actions as long as a condition is met. Unlike the for, it does not necessarily need a counter, but that a certain condition is met, for example, that it is in an interval, that something is greater than another, etc.",
     "paragraphTitle2": "Sentence For:",
     "paragraph3": "This statement is characterized by having a counter, a condition involving this counter and an increment or decrement statement depending on the case."
+  },
+  "typeOfDataListPage": {
+    "title": "Type of data (List)",
+    "paragraph": "A list is a dynamic data structure that contains a collection of homogeneous elements (of the same type) in such a way that an order is established between them. That is, each element, except the first, has a predecessor, and each element, except the last, has a successor.",
+    "paragraph2": "As types of lists, we can divide them according to the organization of the nodes:",
+    "listTitle": [
+      "Simply linked lists:",
+      "Double linked lists:",
+      "Linear lists:",
+      "Circular lists:"
+    ],
+    "listText": [
+      "Each node has a field pointing to the next node.",
+      "Each node has a pointer pointing to the next node, and another pointer pointing to the previous node.",
+      "These are lists that have a beginning and an end.",
+      "In these lists the last element points to the first one, therefore we could be always going through them, since they have no end."
+    ]
   }
 }

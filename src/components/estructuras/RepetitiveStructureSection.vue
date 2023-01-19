@@ -1,18 +1,18 @@
 <template>
     <v-container class="image">
         <v-row align="center" justify="center">
-            <h2 class="display-2 font-weight-bold mb-4" justify="center" v-t="'repetitiveStructure.title'" />
+            <h2 class="display-2 font-weight-bold mb-4" justify="center" v-t="'repetitiveStructurePage.title'" />
         </v-row>
         <v-row align="center" justify="center" class="mb-5">
-            <h3 class="font-weight-light" v-t="'repetitiveStructure.paragraph'" />
+            <h3 class="font-weight-light" v-t="'repetitiveStructurePage.paragraph'" />
         </v-row>
         <v-row align="center" class="mb-3">
-            <h2 v-t="'repetitiveStructure.paragraphTitle1'" />
+            <h2 v-t="'repetitiveStructurePage.paragraphTitle1'" />
         </v-row>
         <v-row align="center" class="mb-3">
             <ul>
                 <li>
-                    <h3 class="font-weight-light" v-t="'repetitiveStructure.paragraph2'" />
+                    <h3 class="font-weight-light" v-t="'repetitiveStructurePage.paragraph2'" />
                 </li>
             </ul>
         </v-row>
@@ -27,12 +27,12 @@
             </v-col>
         </v-row>
         <v-row align="center" class="mb-3">
-            <h2 v-t="'repetitiveStructure.paragraphTitle2'" />
+            <h2 v-t="'repetitiveStructurePage.paragraphTitle2'" />
         </v-row>
         <v-row align="center" class="mb-2">
             <ul>
                 <li>
-                    <h3 class="font-weight-light" v-t="'repetitiveStructure.paragraph3'" />
+                    <h3 class="font-weight-light" v-t="'repetitiveStructurePage.paragraph3'" />
                 </li>
             </ul>
         </v-row>
