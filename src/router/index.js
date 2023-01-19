@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
 import HomeView from '../views/HomeView.vue'
 import AlgorithmsView from '../views/fundamentos/AlgorithmsView.vue'
 import SoftwareCycleView from '../views/fundamentos/SoftwareCycleView.vue'
@@ -8,6 +9,8 @@ import TypeOfDataView from '../views/fundamentos/TypeOfDataView.vue'
 import TypeOfOperatorsView from '../views/fundamentos/TypeOfOperatorsView.vue'
 import SequentialStructureView from '../views/fundamentos/SequentialStructureView.vue'
 import SelectiveStructureView from '../views/fundamentos/SelectiveStructureView.vue'
+
+import RepetitiveStructureView from '../views/estructuras/RepetitiveStructureView.vue'
 
 Vue.use(VueRouter)
 
@@ -54,9 +57,9 @@ const routes = [
     component: SelectiveStructureView
   },
   {
-    path: '/prueba',
-    name: 'prueba',
-    component: SelectiveStructureView
+    path: '/repetitiveStructureView',
+    name: 'RepetitiveStructureView',
+    component: RepetitiveStructureView
   }
 ]
 
