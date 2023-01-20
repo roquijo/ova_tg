@@ -77,7 +77,7 @@
     {
       "icon": "mdi-view-list-outline",
       "title": "Listas paralelas",
-      "link": "/"
+      "link": "/parallelListsView"
     }
   ],
   "headerSection": {

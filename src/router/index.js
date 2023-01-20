@@ -24,7 +24,7 @@ import RepetitiveStructureView from '../views/estructuras/RepetitiveStructureVie
  */
 import TypeOfDataListView from '../views/arreglos/TypeOfDataListView.vue'
 import OperationsView from '../views/arreglos/OperationsView.vue'
-
+import ParallelListsView from '../views/arreglos/ParallelListsView.vue'
 
 Vue.use(VueRouter)
 
@@ -94,6 +94,11 @@ const routes = [
     path: '/operationsView',
     name: 'OperationsView',
     component: OperationsView
+  },
+  {
+    path: '/ParallelListsView',
+    name: 'ParallelListsView',
+    component: ParallelListsView
   }
 ]
 
