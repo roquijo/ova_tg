@@ -67,7 +67,7 @@
     {
       "icon": "mdi-calculator-variant",
       "title": "Operations",
-      "link": "/"
+      "link": "/operationsView"
     },
     {
       "icon": "mdi-sitemap-outline",
@@ -215,17 +215,23 @@
   "operationsPage": {
     "title": "Operations on a list or array",
     "paragraph": "The basic operations that can be performed on any list, regardless of its type, are as follows:",
-    "listTitle": [
-      "Create:",
-      "Insert:",
-      "Delete:",
-      "Empty:"
-    ],
-    "listText": [
-      "This operation generates everything necessary to work with a list.",
-      "Allows you to add an item to the list. In this case we must indicate to the program whether we are going to add the new element at the beginning of the list or at the end of the list.",
-      "Will be used to delete an item from the list. We can also indicate whether we want to delete the first or the last one.",
-      "Will return true if the list is empty."
+    "list": [
+      {
+        "title": "Create:",
+        "text": "This operation generates everything necessary to work with a list."
+      },
+      {
+        "title": "Insert:",
+        "text": "Allows you to add an item to the list. In this case we must indicate to the program whether we are going to add the new element at the beginning of the list or at the end of the list."
+      },
+      {
+        "title": "Delete:",
+        "text": "Will be used to delete an item from the list. We can also indicate whether we want to delete the first or the last one."
+      },
+      {
+        "title": "Empty:",
+        "text": "Will return true if the list is empty."
+      }
     ],
     "paragraph2": "Other operations can be performed such as destroying the list completely, counting the number of items in the list, adding an item in a certain position, deleting an item from a certain position, checking if there is a data in the list, etc."
   },

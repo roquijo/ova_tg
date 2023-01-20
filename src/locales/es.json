@@ -67,7 +67,7 @@
     {
       "icon": "mdi-calculator-variant",
       "title": "Operaciones",
-      "link": "/"
+      "link": "/operationsView"
     },
     {
       "icon": "mdi-sitemap-outline",
@@ -215,17 +215,23 @@
   "operationsPage": {
     "title": "Operaciones con una lista o arreglo",
     "paragraph": "Las operaciones básicas que podemos realizar en cualquier lista, independiente del tipo que sea, son la siguientes:",
-    "listTitle": [
-      "Crear:",
-      "Insertar:",
-      "Eliminar:",
-      "Vacía:"
-    ],
-    "listText": [
-      "Con esta operación se genera todo lo necesario para trabajar con una lista.",
-      "Permite añadir un elemento a la lista. En este caso debemos indicar al programa si vamos a añadir el elemento nuevo al comienzo de la lista o al final de la misma.",
-      "Se usará para borrar un elemento de la lista. También podremos indicar si queremos borrar el primero o el último.",
-      "Devolverá cierto si la lista está vacía."
+    "list": [
+      {
+        "title": "Crear:",
+        "text": "Con esta operación se genera todo lo necesario para trabajar con una lista."
+      },
+      {
+        "title": "Insertar:",
+        "text": "Permite añadir un elemento a la lista. En este caso debemos indicar al programa si vamos a añadir el elemento nuevo al comienzo de la lista o al final de la misma."
+      },
+      {
+        "title": "Eliminar:",
+        "text": "Se usará para borrar un elemento de la lista. También podremos indicar si queremos borrar el primero o el último."
+      },
+      {
+        "title": "Vacía:",
+        "text": "Devolverá cierto si la lista está vacía."
+      }
     ],
     "paragraph2": "Se podrán realizar otras operaciones como destruir la lista completamente, contar el número de elementos de la misma, añadir un elemento en una determinada posición, borrar un elemento de una determinada posición, comprobar si hay un dato en la lista, etc."
   },
