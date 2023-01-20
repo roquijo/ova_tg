@@ -13,9 +13,10 @@
                             <v-row>
                                 <h3 class="mt-5 mb-5 font-weight-light" justify="center"
                                     v-t="'parallelListsPage.paragraph'" />
+                                <v-img class="mb-5" src="@/assets/img/arreglos/parallelListEjp.png" width="80%" />
                                 <h3 class="mb-5 font-weight-light" justify="center"
                                     v-t="'parallelListsPage.paragraph2'" />
-                                <v-img class="mb-5" src="@/assets/img/arreglos/parallelList.png" width="80%" />
+                                <v-img class="mb-5" src="@/assets/img/arreglos/parallelList.png" width="60%" />
                                 <h3 class="mb-5 font-weight-light" justify="center"
                                     v-t="'parallelListsPage.paragraph3'" />
                             </v-row>
