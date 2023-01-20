@@ -12,6 +12,8 @@ import SelectiveStructureView from '../views/fundamentos/SelectiveStructureView.
 
 import RepetitiveStructureView from '../views/estructuras/RepetitiveStructureView.vue'
 
+import TypeOfDataListView from '../views/arreglos/TypeOfDataListView.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -60,6 +62,11 @@ const routes = [
     path: '/repetitiveStructureView',
     name: 'RepetitiveStructureView',
     component: RepetitiveStructureView
+  },
+  {
+    path: '/typeOfDataListView',
+    name: 'TypeOfDataListView',
+    component: TypeOfDataListView
   }
 ]
 

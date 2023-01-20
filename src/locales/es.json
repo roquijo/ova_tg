@@ -62,7 +62,7 @@
     {
       "icon": "mdi-arrange-bring-to-front",
       "title": "Tipo de dato lista",
-      "link": "/"
+      "link": "/typeOfDataListView"
     },
     {
       "icon": "mdi-calculator-variant",
@@ -192,19 +192,24 @@
   },
   "typeOfDataListPage": {
     "title": "Tipo de dato lista",
-    "paragraph": "Una lista es una estructura dinámica de datos que contiene una colección de elementos homogéneos (del mismo tipo) de manera que se establece entre ellos un orden. Es decir, cada elemento, menos el primero, tiene un predecesor, y cada elemento, menos el último, tiene un sucesor.",
-    "paragraph2": "Como tipos de listas, podemos dividir teniendo en cuenta la organización de los nodos:",
-    "listTitle": [
-      "Listas simplemente enlazadas:",
-      "Listas doblemente enlazadas:",
-      "Listas lineales:",
-      "Listas circulares:"
-    ],
-    "listText": [
-      "Cada nodo tiene un campo que apunta al siguiente nodo.",
-      "Cada nodo dispone de un puntero que apunta al siguiente nodo, y otro que apunta al nodo anterior.",
-      "Son listas que tienen un comienzo y un final.",
-      "En estas listas el último elemento apunta al primero, por lo tanto, las podríamos recorrer siempre, ya que no tienen final."
+    "paragraph": "Una lista es una estructura dinámica de datos que contiene una colección de elementos homogéneos (del mismo tipo) de manera que se establece entre ellos un orden. Es decir, cada elemento, menos el primero, tiene un predecesor, y cada elemento, menos el último, tiene un sucesor. Como tipos de listas, podemos dividir teniendo en cuenta la organización de los nodos:",
+    "list": [
+      {
+        "title": "Listas simplemente enlazadas:",
+        "text": "Cada nodo tiene un campo que apunta al siguiente nodo."
+      },
+      {
+        "title": "Listas doblemente enlazadas:",
+        "text": "Cada nodo dispone de un puntero que apunta al siguiente nodo, y otro que apunta al nodo anterior."
+      },
+      {
+        "title": "Listas lineales:",
+        "text": "Son listas que tienen un comienzo y un final."
+      },
+      {
+        "title": "Listas circulares:",
+        "text": "En estas listas el último elemento apunta al primero, por lo tanto, las podríamos recorrer siempre, ya que no tienen final."
+      }
     ]
   },
   "operationsPage": {

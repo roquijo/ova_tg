@@ -62,7 +62,7 @@
     {
       "icon": "mdi-arrange-bring-to-front",
       "title": "List data type",
-      "link": "/"
+      "link": "/typeOfDataListView"
     },
     {
       "icon": "mdi-calculator-variant",
@@ -192,19 +192,24 @@
   },
   "typeOfDataListPage": {
     "title": "Type of data (List)",
-    "paragraph": "A list is a dynamic data structure that contains a collection of homogeneous elements (of the same type) in such a way that an order is established between them. That is, each element, except the first, has a predecessor, and each element, except the last, has a successor.",
-    "paragraph2": "As types of lists, we can divide them according to the organization of the nodes:",
-    "listTitle": [
-      "Simply linked lists:",
-      "Double linked lists:",
-      "Linear lists:",
-      "Circular lists:"
-    ],
-    "listText": [
-      "Each node has a field pointing to the next node.",
-      "Each node has a pointer pointing to the next node, and another pointer pointing to the previous node.",
-      "These are lists that have a beginning and an end.",
-      "In these lists the last element points to the first one, therefore we could be always going through them, since they have no end."
+    "paragraph": "A list is a dynamic data structure that contains a collection of homogeneous elements (of the same type) in such a way that an order is established between them. That is, each element, except the first, has a predecessor, and each element, except the last, has a successor. As types of lists, we can divide them according to the organization of the nodes:",
+    "list": [
+      {
+        "title": "Simply linked lists:",
+        "text": "Each node has a field pointing to the next node."
+      },
+      {
+        "title": "Double linked lists:",
+        "text": "Each node has a pointer pointing to the next node, and another pointer pointing to the previous node."
+      },
+      {
+        "title": "Linear lists:",
+        "text": "These are lists that have a beginning and an end."
+      },
+      {
+        "title": "Circular lists:",
+        "text": "In these lists the last element points to the first one, therefore we could be always going through them, since they have no end."
+      }
     ]
   },
   "operationsPage": {
