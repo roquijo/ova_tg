@@ -1,5 +1,5 @@
 <template>
-    <v-parallax dark src="@/assets/img/estructuras/bgDownload.jpg" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
+    <v-parallax dark src="@/assets/img/estructuras/repetitiveEstructureBg.jpg" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
         <RepetitiveStructureSection />
     </v-parallax>
 </template>

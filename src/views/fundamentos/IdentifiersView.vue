@@ -1,5 +1,5 @@
 <template>
-    <v-parallax dark src="@/assets/img/fundamentos/IdentifiersBack.jpg" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
+    <v-parallax dark src="@/assets/img/fundamentos/IdentifiersBg.jpg" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
         <IdentifiersSection />
     </v-parallax>
 </template>
