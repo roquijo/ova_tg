@@ -50,7 +50,7 @@
     {
       "icon": "mdi-variable",
       "title": "Variables globales",
-      "link": "/"
+      "link": "/globalVariablesView"
     },
     {
       "icon": "mdi-function",
@@ -189,6 +189,12 @@
     "paragraph2": "Realiza cierto número de acciones mientras se cumpla una condición. A diferencia del for, no necesariamente necesita un contador, sino que se cumpla una determinada condición ya sea, por ejemplo, que esté en un intervalo, que algo sea mayor que otro etc.",
     "paragraphTitle2": "Sentencia Para (For):",
     "paragraph3": "Esta sentencia se caracteriza por tener un contador, una condición que involucra este contador y una sentencia de incremento o decremento dependiendo el caso."
+  },
+  "globalVariablesPage": {
+    "title": "Variables globales",
+    "paragraph": "Las variables pueden ser globales o locales. Una variable es global a no ser que esté declarada dentro de una definición de función. Las variables globales resultan visibles y disponibles para todas las sentencias de un script. Las variables locales sólo resultan visibles y disponibles dentro de la función en la que están definidas.",
+    "paragraph2": "Aunque los nombres de variables y los identificadores deben ser exclusivos, resulta válido declarar una variable local con el mismo nombre que una variable global o con el mismo nombre que una variable local definida en otra función.",
+    "paragraph3": "Los nombres de parámetros de una definición de función se consideran variables locales. Los datos que se pasan a una función se pasan según el valor. Una variable global que se pasa a una función no puede ser modificada por la función."
   },
   "typeOfDataListPage": {
     "title": "Tipo de dato lista",

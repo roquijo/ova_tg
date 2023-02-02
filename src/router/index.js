@@ -18,7 +18,7 @@ import SelectiveStructureView from '../views/fundamentos/SelectiveStructureView.
  * Componentes de la seccion "estructuras"
  */
 import RepetitiveStructureView from '../views/estructuras/RepetitiveStructureView.vue'
-
+import GlobalVariablesView from '../views/estructuras/GlobalVariablesView.vue'
 /**
  * Componentes de la seccion "arreglos"
  */
@@ -81,6 +81,11 @@ const routes = [
     path: '/repetitiveStructureView',
     name: 'RepetitiveStructureView',
     component: RepetitiveStructureView
+  },
+  {
+    path: '/globalVariablesView',
+    name: 'GlobalVariablesView',
+    component: GlobalVariablesView
   },
   /**
   * Se crean las rutas de los componentes de la seccion "arreglos"

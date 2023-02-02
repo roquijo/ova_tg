@@ -50,7 +50,7 @@
     {
       "icon": "mdi-variable",
       "title": "Global variables",
-      "link": "/"
+      "link": "/globalVariablesView"
     },
     {
       "icon": "mdi-function",
@@ -189,6 +189,12 @@
     "paragraph2": "Performs a certain number of actions as long as a condition is met. Unlike the for, it does not necessarily need a counter, but that a certain condition is met, for example, that it is in an interval, that something is greater than another, etc.",
     "paragraphTitle2": "Sentence For:",
     "paragraph3": "This statement is characterized by having a counter, a condition involving this counter and an increment or decrement statement depending on the case."
+  },
+  "globalVariablesPage": {
+    "title": "Global variables",
+    "paragraph": "Variables can be global or local. A variable is global unless it is declared within a function definition. The resulting global variables visible and available to all statements in a script. Local variables are only visible and available within the function in which they are defined.",
+    "paragraph2": "Although variable names and identifiers must be unique, it is legal to declare a local variable with the same name as a global variable or with the same name as a local variable defined in another function.",
+    "paragraph3": "Parameter names of a function definition are considered local variables. Data passed to a function is passed based on value. A global variable that is passed to a function cannot be modified by the function."
   },
   "typeOfDataListPage": {
     "title": "Type of data (List)",
