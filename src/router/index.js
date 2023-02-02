@@ -19,6 +19,7 @@ import SelectiveStructureView from '../views/fundamentos/SelectiveStructureView.
  */
 import RepetitiveStructureView from '../views/estructuras/RepetitiveStructureView.vue'
 import GlobalVariablesView from '../views/estructuras/GlobalVariablesView.vue'
+import DefinedFuntionsView from '../views/estructuras/DefinedFuntionsView.vue'
 /**
  * Componentes de la seccion "arreglos"
  */
@@ -86,6 +87,11 @@ const routes = [
     path: '/globalVariablesView',
     name: 'GlobalVariablesView',
     component: GlobalVariablesView
+  },
+  {
+    path: '/definedFuntionsView',
+    name: 'DefinedFuntionsView',
+    component: DefinedFuntionsView
   },
   /**
   * Se crean las rutas de los componentes de la seccion "arreglos"

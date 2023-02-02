@@ -55,7 +55,7 @@
     {
       "icon": "mdi-function",
       "title": "Funciones definidas",
-      "link": "/"
+      "link": "/definedFuntionsView"
     }
   ],
   "corte3": [
@@ -195,6 +195,12 @@
     "paragraph": "Las variables pueden ser globales o locales. Una variable es global a no ser que esté declarada dentro de una definición de función. Las variables globales resultan visibles y disponibles para todas las sentencias de un script. Las variables locales sólo resultan visibles y disponibles dentro de la función en la que están definidas.",
     "paragraph2": "Aunque los nombres de variables y los identificadores deben ser exclusivos, resulta válido declarar una variable local con el mismo nombre que una variable global o con el mismo nombre que una variable local definida en otra función.",
     "paragraph3": "Los nombres de parámetros de una definición de función se consideran variables locales. Los datos que se pasan a una función se pasan según el valor. Una variable global que se pasa a una función no puede ser modificada por la función."
+  },
+  "definedFuntionsPage": {
+    "title": "Funciones Definidas",
+    "paragraph": "Una función, es la forma de agrupar expresiones y sentencias (algoritmos) que realicen determinadas acciones, pero que éstas, solo se ejecuten cuando son llamadas. Es decir, que al colocar un algoritmo dentro de una función, al correr el archivo, el algoritmo no será ejecutado si no se ha hecho una referencia a la función que lo contiene.",
+    "paragraph2": "Las funciones definidas por el usuario son extensiones o adiciones a las funciones incorporadas ya existentes del lenguaje, se declaran con un nombre seguido de parentesis que encierran los argumentos (si los hay)",
+    "paragraph3": "Existen funciones en las cuales se espera un resultado el cual es definido dentro de la clausula (return)"
   },
   "typeOfDataListPage": {
     "title": "Tipo de dato lista",
