@@ -12,7 +12,7 @@
                 <h3 class="font-weight-light">{{ item.text }}</h3>
             </v-col>
             <v-col cols="12" md="6" align="center">
-                <v-img :src="require('@/assets/img/arreglos/list' + (i + 1) + '.png')" width="80%" />
+                <v-img :src="require('@/assets/img/arreglos/operations' + (i + 1) + '.png')" width="80%" />
             </v-col>
         </v-row>
         <v-row align="center" justify="center" class="mb-5">
