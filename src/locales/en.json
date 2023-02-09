@@ -283,7 +283,7 @@
       },
       {
         "title": "Double Tour Pattern:",
-        "text": "The last of the patterns that we are going to see in this chapter is the double path pattern. This pattern is used as a solution to those problems in which, for each element of the sequence, a complete path must be made. This path is mainly used for matrix-type structures, in which it is necessary to go through said structure in both directions.",
+        "text": "This pattern is used as a solution to those problems in which, for each element of the sequence, a complete path must be made. This path is mainly used for matrix-type structures, in which it is necessary to go through said structure in both directions.",
         "text2": "To solve a problem with this loop, it is necessary to analyze and identify the problems to be solved, in the case that a third cycle is needed, separate methods must be written to reduce the complexity of the algorithm."
       }
     ]

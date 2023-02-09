@@ -283,7 +283,7 @@
       },
       {
         "title": "Patrón de Doble Recorrido:",
-        "text": "El último de los patrones que vamos a ver en este capítulo es el de doble recorrido. Este patrón se utiliza como solución de aquellos problemas en los cuales, por cada elemento de la secuencia, se debe hacer un recorrido completo, este recorrido se utiliza mayormente para estructuras de tipo matriz, en el cual es necesario recorrer en ambos sentidos dicha estructura.",
+        "text": "Este patrón se utiliza como solución de aquellos problemas en los cuales, por cada elemento de la secuencia, se debe hacer un recorrido completo, este recorrido se utiliza mayormente para estructuras de tipo matriz, en el cual es necesario recorrer en ambos sentidos dicha estructura.",
         "text2": "Para resolver un problema con este recorrido, es necesario analizar e identificar los problemas que se quieren resolver, en el caso que se necesite un tercer ciclo, se deben escribir métodos separados para disminuir la complejidad del algoritmo."
       }
     ]

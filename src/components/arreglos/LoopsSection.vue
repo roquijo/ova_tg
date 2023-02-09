@@ -19,8 +19,8 @@
                 </ul>
             </v-row>
             <v-row align="center" justify="center" class="mb-3">
-                <v-col cols="12" md="8" align="center">
-                    <v-img src="@/assets/img/estructuras/while.png" width="80%" />
+                <v-col cols="12" md="12" align="center">
+                    <v-img :src="require('@/assets/img/arreglos/loops' + (i + 1) + '.png')" width="100%" />
                 </v-col>
             </v-row>
             <v-row align="center" class="mb-15">
