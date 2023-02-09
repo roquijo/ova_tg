@@ -72,7 +72,7 @@
     {
       "icon": "mdi-sitemap-outline",
       "title": "Loops",
-      "link": "/"
+      "link": "/loopsView"
     },
     {
       "icon": "mdi-view-list-outline",
@@ -246,6 +246,27 @@
       }
     ],
     "paragraph2": "Other operations can be performed such as destroying the list completely, counting the number of items in the list, adding an item in a certain position, deleting an item from a certain position, checking if there is a data in the list, etc."
+  },
+  "loopsPage": {
+    "title": "Path patterns for repetitive instructions",
+    "paragraph": "When working with container structures, the need arises to go through each item that composes it to solve certain problems. The following are the path patterns used to solve most of the problems that arise when coding:",
+    "list": [
+      {
+        "title": "Total Tour Pattern:",
+        "text": "On many occasions, to solve a problem that involves a sequence, we need to go through all the elements that it contains to achieve the solution. A practical example of this is calculating how many students passed the course, taking into account that the minimum grade is 3.0",
+        "text2": "The characteristic of this route is that it requires all the elements of the structure to be covered in order to achieve the desired objective."
+      },
+      {
+        "title": "Partial Tour Pattern:",
+        "text": "Unlike the previous route, in some problems that we face it is not necessary to go through all the elements to achieve our objective, an example of this is to find the first student with a grade equal to 5.0",
+        "text2": "In all such cases we do a walkthrough of the fix, but the walkthrough should end as soon as we have resolved the problem. For example, the method that reports if any student got a grade of five in the course must exit the iterative process as soon as it finds the first student with that grade. Only if it doesn't find it will it go to the end of the sequence."
+      },
+      {
+        "title": "Double Tour Pattern:",
+        "text": "The last of the patterns that we are going to see in this chapter is the double path pattern. This pattern is used as a solution to those problems in which, for each element of the sequence, a complete path must be made. This path is mainly used for matrix-type structures, in which it is necessary to go through said structure in both directions.",
+        "text2": "To solve a problem with this loop, it is necessary to analyze and identify the problems to be solved, in the case that a third cycle is needed, separate methods must be written to reduce the complexity of the algorithm."
+      }
+    ]
   },
   "parallelListsPage": {
     "title": "Parallel lists",

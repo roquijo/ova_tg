@@ -72,7 +72,7 @@
     {
       "icon": "mdi-sitemap-outline",
       "title": "Recorridos",
-      "link": "/"
+      "link": "/loopsView"
     },
     {
       "icon": "mdi-view-list-outline",
@@ -246,6 +246,27 @@
       }
     ],
     "paragraph2": "Se podrán realizar otras operaciones como destruir la lista completamente, contar el número de elementos de la misma, añadir un elemento en una determinada posición, borrar un elemento de una determinada posición, comprobar si hay un dato en la lista, etc."
+  },
+  "loopsPage": {
+    "title": "Patrones de recorridos para instrucciones repetitivas",
+    "paragraph": "Cuando se trabaja con estructuras contenedoras, surge la necesidad de recorrer cada ítem que la compone para resolver ciertos problemas, a continuación se presentan los patrones de recorrido utilizados para resolver la mayoría de problemas que surgen al momento de codificar:",
+    "list": [
+      {
+        "title": "Patrón de Recorrido Total:",
+        "text": "En muchas ocasiones, para resolver un problema que involucra una secuencia, necesitamos recorrer todos los elementos que ésta contiene para lograr la solución, un ejemplo práctico de esto es calcular cuántos estudiantes aprobaron la asignatura teniendo en cuenta que la nota mínima es de 3.0",
+        "text2": "La característica que posee este recorrido es que requiere que se recorran todos los elementos de la estructura para poder cumplir con el objetivo buscado."
+      },
+      {
+        "title": "Patrón de Recorrido Parcial:",
+        "text": "A diferencia del recorrido anterior, en algunos problemas que nos enfrentamos no es necesario recorrer todos los elementos para lograr nuestro objetivo, un ejemplo de ello es buscar el primer estudiante con una nota igual a 5.0",
+        "text2": "En todos esos casos hacemos un recorrido del arreglo, pero éste debe terminar tan pronto hayamos resuelto el problema. Por ejemplo, el método que informa si algún estudiante obtuvo cinco en la nota del curso debe salir del proceso iterativo tan pronto localice el primer estudiante con esa nota. Sólo si no lo encuentra, va a llegar hasta el final de la secuencia."
+      },
+      {
+        "title": "Patrón de Doble Recorrido:",
+        "text": "El último de los patrones que vamos a ver en este capítulo es el de doble recorrido. Este patrón se utiliza como solución de aquellos problemas en los cuales, por cada elemento de la secuencia, se debe hacer un recorrido completo, este recorrido se utiliza mayormente para estructuras de tipo matriz, en el cual es necesario recorrer en ambos sentidos dicha estructura.",
+        "text2": "Para resolver un problema con este recorrido, es necesario analizar e identificar los problemas que se quieren resolver, en el caso que se necesite un tercer ciclo, se deben escribir métodos separados para disminuir la complejidad del algoritmo."
+      }
+    ]
   },
   "parallelListsPage": {
     "title": "Listas paralelas",

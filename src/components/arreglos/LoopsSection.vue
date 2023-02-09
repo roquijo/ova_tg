@@ -1,0 +1,39 @@
+<template>
+    <v-container class="image">
+        <v-row align="center" justify="center">
+            <h2 class="display-2 font-weight-bold mb-4" justify="center" v-t="'loopsPage.title'" />
+        </v-row>
+        <v-row align="center" justify="center" class="mb-15">
+            <h3 class="font-weight-light" v-t="'loopsPage.paragraph'" />
+        </v-row>
+
+        <row v-for="(item, i) in $t('loopsPage.list')" :key="i">
+            <v-row align="center" class="mb-3">
+                <h2>{{ item.title }}</h2>
+            </v-row>
+            <v-row align="center" class="mb-3">
+                <ul>
+                    <li>
+                        <h3 class="font-weight-light">{{ item.text }}</h3>
+                    </li>
+                </ul>
+            </v-row>
+            <v-row align="center" justify="center" class="mb-3">
+                <v-col cols="12" md="8" align="center">
+                    <v-img src="@/assets/img/estructuras/while.png" width="80%" />
+                </v-col>
+            </v-row>
+            <v-row align="center" class="mb-15">
+                <ul>
+                    <li>
+                        <h3 class="font-weight-light">{{ item.text2 }}</h3>
+                    </li>
+                </ul>
+            </v-row>
+        </row>
+    </v-container>
+</template>
+
+<style>
+
+</style>

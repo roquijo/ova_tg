@@ -26,6 +26,8 @@ import DefinedFuntionsView from '../views/estructuras/DefinedFuntionsView.vue'
 import TypeOfDataListView from '../views/arreglos/TypeOfDataListView.vue'
 import OperationsView from '../views/arreglos/OperationsView.vue'
 import ParallelListsView from '../views/arreglos/ParallelListsView.vue'
+import LoopsView from '../views/arreglos/LoopsView.vue'
+
 
 Vue.use(VueRouter)
 
@@ -107,10 +109,15 @@ const routes = [
     component: OperationsView
   },
   {
-    path: '/ParallelListsView',
+    path: '/parallelListsView',
     name: 'ParallelListsView',
     component: ParallelListsView
-  }
+  },
+  {
+    path: '/loopsView',
+    name: 'LoopsView',
+    component: LoopsView
+  } 
 ]
 
 const router = new VueRouter({
