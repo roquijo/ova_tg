@@ -39,6 +39,11 @@
       "icon": "mdi-arrange-send-backward",
       "title": "Estructura selectiva",
       "link": "/selectiveStructureView"
+    },
+    {
+      "icon": "mdi-ab-testing",
+      "title": "Test 1",
+      "link": "/selectiveStructureView"
     }
   ],
   "corte2": [
@@ -55,6 +60,11 @@
     {
       "icon": "mdi-function",
       "title": "Funciones definidas",
+      "link": "/definedFuntionsView"
+    },
+    {
+      "icon": "mdi-ab-testing",
+      "title": "Test 2",
       "link": "/definedFuntionsView"
     }
   ],
@@ -78,6 +88,16 @@
       "icon": "mdi-view-list-outline",
       "title": "Listas paralelas",
       "link": "/parallelListsView"
+    },
+    {
+      "icon": "mdi-ab-testing",
+      "title": "Test 3",
+      "link": "/definedFuntionsView"
+    },
+    {
+      "icon": "mdi-bookshelf",
+      "title": "Bibliografía",
+      "link": "/definedFuntionsView"
     }
   ],
   "headerSection": {
