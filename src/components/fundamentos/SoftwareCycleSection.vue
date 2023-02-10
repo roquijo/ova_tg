@@ -39,8 +39,12 @@
                             </v-col>
                             <v-col v-for="(item, index) in $t('softwareLifeCyclePage.list2')" :key="index" cols="12"
                                 md="8" class="d-flex align-center">
-                                <v-icon dark>mdi-check</v-icon>
-                                <span class="text-justify" v-text="item" />
+                                <ul class="mt-4">
+                                    <li>
+                                        <strong><h3 class="text-justify" v-text="item.title" /></strong>
+                                        <span class="text-justify" v-text="item.text" />
+                                    </li>
+                                </ul>
                             </v-col>
                         </v-row>
                         <br>

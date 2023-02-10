@@ -133,13 +133,34 @@
     ],
     "paragraph2": "With the above, any software goes through a series of phases throughout its life. Its life cycle comprises a series of stages among which are the stages for the process of analysis and design for the solution of problems and the following ones:",
     "list2": [
-      "Planning: This initial phase of any project includes activities such as determining the scope of the project, conducting a feasibility study, analyzing the risks associated with the project, estimating the cost of the project, planning its timing and allocating resources to the various stages of the project.",
-      "Analysis: Is the process by which you try to find out what you really need and come to a proper understanding of the system requirements. This stage is of great importance because if you do not know precisely what you need, you will not be able to carry out the development process.",
-      "Design: The models used in the design phase represent the characteristics of the system that will allow us to implement it effectively, in other words, in this stage we define how the development will be done and what will be implemented to carry it out. The design is a complex stage and the design process has to be carried out iteratively.",
-      "Implementation: Before starting to write a line of code or create a table in our database, it is of great importance to have a good understanding of the problem to be solved and to have applied basic design principles that will allow us to build quality software. For this phase, it is necessary to select the appropriate tools, a development environment that facilitates the work and an appropriate programming language for the type of system to be built. The choice of these tools will depend largely on the design decisions that have been made.",
-      "Tests: The objective of this stage is to detect errors that may have been made in the previous stages of the project and to correct them. It is important to detect errors before the end user has to deal with them. In this sense, a test is a success when an error is detected.",
-      "Installation or deployment: For this stage, the environment in which the system must operate, both hardware and software, must be planned. In addition, to ensure the correct operation of the system, it is essential to take into account the dependencies that may exist between the different components of the system and their versions.",
-      "Use and maintenance: Typically consumes 40 to 80 percent of a software development company's resources. In fact, at 60 percent on average, it is probably the most important stage of the software lifecycle."
+      {
+        "title": "Planning: ",
+        "text": "This initial phase of any project includes activities such as determining the scope of the project, conducting a feasibility study, analyzing the risks associated with the project, estimating the cost of the project, planning its timing and allocating resources to the various stages of the project."
+      },
+      {
+        "title": "Analysis: ",
+        "text": "Is the process by which you try to find out what you really need and come to a proper understanding of the system requirements. This stage is of great importance because if you do not know precisely what you need, you will not be able to carry out the development process."
+      },
+      {
+        "title": "Design: ",
+        "text": "The models used in the design phase represent the characteristics of the system that will allow us to implement it effectively, in other words, in this stage we define how the development will be done and what will be implemented to carry it out. The design is a complex stage and the design process has to be carried out iteratively."
+      },
+      {
+        "title": "Implementation: ",
+        "text": "Before starting to write a line of code or create a table in our database, it is of great importance to have a good understanding of the problem to be solved and to have applied basic design principles that will allow us to build quality software. For this phase, it is necessary to select the appropriate tools, a development environment that facilitates the work and an appropriate programming language for the type of system to be built. The choice of these tools will depend largely on the design decisions that have been made."
+      },
+      {
+        "title": "Tests: ",
+        "text": "The objective of this stage is to detect errors that may have been made in the previous stages of the project and to correct them. It is important to detect errors before the end user has to deal with them. In this sense, a test is a success when an error is detected."
+      },
+      {
+        "title": "Installation or deployment: ",
+        "text": "For this stage, the environment in which the system must operate, both hardware and software, must be planned. In addition, to ensure the correct operation of the system, it is essential to take into account the dependencies that may exist between the different components of the system and their versions."
+      },
+      {
+        "title": "Use and maintenance: ",
+        "text": "Typically consumes 40 to 80 percent of a software development company's resources. In fact, at 60 percent on average, it is probably the most important stage of the software lifecycle."
+      }
     ]
   },
   "identifiersPage": {

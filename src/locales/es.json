@@ -133,13 +133,34 @@
     ],
     "paragraph2": "Con lo anterior, cualquier software va pasando por una serie de fases a lo largo de su vida. Su ciclo de vida comprende una serie de etapas entre las que se encuentran las etapas para el proceso de análisis y diseño para la solución de problemas y las siguientes:",
     "list2": [
-      "Planificación: En esta fase inicial de cualquier proyecto se incluyen actividades como la determinación del ámbito del proyecto, la realización de un estudio de viabilidad, el análisis de los riesgos asociados al proyecto, una estimación del coste del proyecto, su planificación temporal y la asignación de recursos a las distintas etapas del proyecto.",
-      "Análisis: Es el proceso mediante el cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema. Esta etapa es de gran importancia debido a que si no se sabe con precisión qué es lo que se necesita, no se podrá realizar el proceso de desarrollo.",
-      "Diseño: Los modelos que se utilizan en la fase de diseño representan las características del sistema que nos permitirán implementarlo de forma efectiva, en otras palabras en esta etapa se define el cómo se hará el desarrollo y lo que se implementará para realizar el mismo. El diseño es una etapa compleja y el proceso de diseño ha de realizarse de forma iterativa.",
-      "Implementación: Antes de empezar a escribir una línea de código o de crear una tabla en nuestra base de datos, es de gran importancia haber comprendido bien el problema que se pretende resolver y haber aplicado principios básicos de diseño que nos permitan construir un software de calidad. Para esta fase, se deben seleccionar las herramientas adecuadas, un entorno de desarrollo que facilite el trabajo y un lenguaje de programación apropiado para el tipo de sistema que se vaya a construir. La elección de estas herramientas dependerá en gran parte de las decisiones de diseño que se hayan tomado.",
-      "Pruebas: En esta etapa se tiene como objetivo detectar los errores que se hayan podido cometer en las etapas anteriores del proyecto y corregirlos. Es importante detectar los errores antes de que el usuario final tenga que enfrentarse a ellos. En ese sentido, una prueba es un éxito cuando se detecta un error.",
-      "Instalación o despliegue: Para esta etapa se debe planificar el entorno en el que el sistema debe funcionar, tanto hardware como software. Además, para asegurar el correcto funcionamiento del sistema, resulta esencial que se tengan en cuenta las dependencias que pueden existir entre los distintos componentes del sistema y sus versiones.",
-      "Uso y mantenimiento: Consume típicamente del 40 al 80 por ciento de los recursos de una empresa de desarrollo de software. De hecho, con un 60% de media, es probablemente la etapa más importante del ciclo de vida del software."
+      {
+        "title": "Planificación: ",
+        "text": "En esta fase inicial de cualquier proyecto se incluyen actividades como la determinación del ámbito del proyecto, la realización de un estudio de viabilidad, el análisis de los riesgos asociados al proyecto, una estimación del coste del proyecto, su planificación temporal y la asignación de recursos a las distintas etapas del proyecto."
+      },
+      {
+        "title": "Análisis: ",
+        "text": "Es el proceso mediante el cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema. Esta etapa es de gran importancia debido a que si no se sabe con precisión qué es lo que se necesita, no se podrá realizar el proceso de desarrollo."
+      },
+      {
+        "title": "Diseño: ",
+        "text": "Los modelos que se utilizan en la fase de diseño representan las características del sistema que nos permitirán implementarlo de forma efectiva, en otras palabras en esta etapa se define el cómo se hará el desarrollo y lo que se implementará para realizar el mismo. El diseño es una etapa compleja y el proceso de diseño ha de realizarse de forma iterativa."
+      },
+      {
+        "title": "Implementación: ",
+        "text": "Antes de empezar a escribir una línea de código o de crear una tabla en nuestra base de datos, es de gran importancia haber comprendido bien el problema que se pretende resolver y haber aplicado principios básicos de diseño que nos permitan construir un software de calidad. Para esta fase, se deben seleccionar las herramientas adecuadas, un entorno de desarrollo que facilite el trabajo y un lenguaje de programación apropiado para el tipo de sistema que se vaya a construir. La elección de estas herramientas dependerá en gran parte de las decisiones de diseño que se hayan tomado."
+      },
+      {
+        "title": "Pruebas: ",
+        "text": "En esta etapa se tiene como objetivo detectar los errores que se hayan podido cometer en las etapas anteriores del proyecto y corregirlos. Es importante detectar los errores antes de que el usuario final tenga que enfrentarse a ellos. En ese sentido, una prueba es un éxito cuando se detecta un error."
+      },
+      {
+        "title": "Instalación o despliegue: ",
+        "text": "Para esta etapa se debe planificar el entorno en el que el sistema debe funcionar, tanto hardware como software. Además, para asegurar el correcto funcionamiento del sistema, resulta esencial que se tengan en cuenta las dependencias que pueden existir entre los distintos componentes del sistema y sus versiones."
+      },
+      {
+        "title": "Uso y mantenimiento: ",
+        "text": "Consume típicamente del 40 al 80 por ciento de los recursos de una empresa de desarrollo de software. De hecho, con un 60% de media, es probablemente la etapa más importante del ciclo de vida del software."
+      }
     ]
   },
   "identifiersPage": {
