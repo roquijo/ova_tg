@@ -97,7 +97,7 @@
     {
       "icon": "mdi-bookshelf",
       "title": "Bibliografía",
-      "link": "/definedFuntionsView"
+      "link": "/bibliographyView"
     }
   ],
   "headerSection": {
@@ -293,5 +293,23 @@
     "paragraph": "Dos listas son paralelas cuando hay una relación entre las componentes de igual subíndice (misma posición) de una lista y otra.",
     "paragraph2": "Ejemplo: Se tienen dos listas; en la primera se tienen nombres de alumnos y en la segunda las edades de estos. La lista de nombres es paralela a la lista edades, ya que en el componente 0 de cada lista se almacena información relacionada a una persona (Juan - 12 años). Es decir, hay una relación entre cada componente de las dos listas.",
     "paragraph3": "Esta relación la conoce únicamente el programador y se hace para facilitar el desarrollo de algoritmos que procesan los datos almacenados en las estructuras de datos."
+  },
+  "bibliographyPage": {
+    "title": "Bibliografía",
+    "list": [
+      "Berzal, F. (s. f.). El ciclo de vida de un sistema de información. Recuperado 10 de febrero de 2023, de http://flanagan.ugr.es/docencia/2005-2006/2/apuntes/ciclovida.pdf",
+      "Constantes y variables. (2021). © Copyright IBM Corp. 2016. https://www.ibm.com/docs/es/cloud-pak-system-w3500/2.2.5?topic=language-constants-variables",
+      "Gómez, F. J., Barrera, J., & Domínguez Bejarano, L. (s. f.). 3.3. Listas | programación avanzada: Estructuras de datos y funciones. http://agrega.juntadeandalucia.es/repositorio/02122016/a5/es-an_2016120212_9131705/33_listas.html",
+      "Imágenes gratuitas. (s. f.). Pixabay. https://pixabay.com/es/images/search/database/?manual_search=1&colors=blue",
+      "Maluenda, R. (2022, 23 junio). Qué es un algoritmo informático: características, tipos y ejemplos. Profile Software Services. https://profile.es/blog/que-es-un-algoritmo-informatico/",
+      "Martínez, A. B. (s. f.). ¿Qué son variables y constantes? [Vídeo]. Platzi. https://platzi.com/clases/2218-pensamiento-logico-2020/35187-que-son-variables-constantes-y-tipos-de-datos/",
+      "Moisset, D. (s. f.). Listas paralelas. https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=17&codigo=17&inicio=15#:~:text=Podemos%20decir%20que%20dos%20listas,las%20edades%20de%20dichas%20personas",
+      "Operadores y expresiones. (2021). © Copyright IBM Corp. 2016. https://www.ibm.com/docs/es/pureapplication-service/2.3.1.0?topic=language-operators-expressions",
+      "Universidad de los Andes. (s. f.). Nivel 3 | Manejo de grupos de atributos. Cupi2. https://cupi2.virtual.uniandes.edu.co/libro-del-curso-pdf/nivel-3",
+      "Universidad de Pamplona. (s. f.). GUIA # 03 ESTRUCTURAS REPETITIVAS. https://www.unipamplona.edu.co/unipamplona/portalIG/home_77/recursos/documentos/01082019/guia03arduino.pdf",
+      "Uniwebsidad, & Bahit, E. (s. f.). Capítulo 4. Funciones definidas por el usuario (Python para principiantes). uniwebsidad. https://uniwebsidad.com/libros/python/capitulo-4",
+      "Urbáez, W. (2022, 22 noviembre). Estructuras secuenciales. Desarrollo Web. https://desarrolloweb.com/articulos/2199.php",
+      "Vital-Carrillo, M. (2019). Estructuras de control para la programación. Vida Científica, 13. https://www.studocu.com/es-mx/document/universidad-tecnologica-de-la-paz/matematicas/3573-manuscrito-15781-1-10-2018-1128/33359980"
+    ]
   }
 }

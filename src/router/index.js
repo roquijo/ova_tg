@@ -27,6 +27,7 @@ import TypeOfDataListView from '../views/arreglos/TypeOfDataListView.vue'
 import OperationsView from '../views/arreglos/OperationsView.vue'
 import ParallelListsView from '../views/arreglos/ParallelListsView.vue'
 import LoopsView from '../views/arreglos/LoopsView.vue'
+import BibliographyView from '../views/arreglos/BibliographyView.vue'
 
 
 Vue.use(VueRouter)
@@ -117,7 +118,13 @@ const routes = [
     path: '/loopsView',
     name: 'LoopsView',
     component: LoopsView
-  } 
+  },
+  {
+    path: '/bibliographyView',
+    name: 'BibliographyView',
+    component: BibliographyView
+  }  
+  
 ]
 
 const router = new VueRouter({
