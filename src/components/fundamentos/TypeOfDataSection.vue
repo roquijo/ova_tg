@@ -23,11 +23,20 @@
         </v-row>
         <br>
         <br>
-        <v-row align="center" justify="center">
+        <v-row align="center" justify="center" class="mb-5">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/_lNtSsEcnwc"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
+        </v-row>
+        <v-row align="center" justify="center">
+            <ul class="mt-4 mb-4">
+                <li>
+                    <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
+                </li>
+            </ul>
+            <iframe src="https://learningapps.org/watch?v=pobjhhou323" style="border:0px;width:80%;height:42vh"
+                allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
         </v-row>
     </v-container>
 </template>

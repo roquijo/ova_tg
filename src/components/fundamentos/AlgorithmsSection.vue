@@ -27,13 +27,21 @@
                   <h1 class="font-weight-regular" v-t="'algorithmPage.paragraphTitleList' + (i + 1)" />
                   <h4 class="font-weight-regular subtitle-1" v-t="'algorithmPage.paragraphList' + (i + 1)" />
                   <br>
-                  <v-img :src="feature.img" width="200px"  class="d-block ml-auto mr-auto" style="object-fit: cover;"
+                  <v-img :src="feature.img" width="200px" class="d-block ml-auto mr-auto" style="object-fit: cover;"
                     :class="{ 'zoom-efect': hover }"></v-img>
                 </v-card>
               </v-hover>
             </v-col>
           </v-row>
         </v-col>
+        <ul class="mt-4">
+          <li>
+            <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
+          </li>
+        </ul>
+        <iframe class="mb-4 mt-4" src="https://learningapps.org/watch?v=pajnvbnva23"
+          style="border:0px;width:80%;height:80vh" allowfullscreen="true" webkitallowfullscreen="true"
+          mozallowfullscreen="true"></iframe>
       </v-row>
     </v-container>
   </section>

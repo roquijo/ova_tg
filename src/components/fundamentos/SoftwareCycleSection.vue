@@ -46,6 +46,13 @@
                         <br>
                     </v-row>
                 </v-col>
+                <ul class="mt-4 mb-4">
+                    <li>
+                        <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
+                    </li>
+                </ul>
+                <iframe src="https://learningapps.org/watch?v=pys3zz72a23" style="border:0px;width:80%;height:80vh"
+                    allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
             </v-row>
         </v-container>
     </section>
