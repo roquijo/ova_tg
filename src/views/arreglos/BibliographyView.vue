@@ -1,5 +1,5 @@
 <template>
-    <v-parallax dark src="@/assets/img/arreglos/loopsBg.jpg" height="rem"
+    <v-parallax dark src="@/assets/img/arreglos/bibliographyBg.jpg" height="rem"
         style="padding-top: 6rem; padding-bottom: 1rem;">
         <BibliographySection />
     </v-parallax>

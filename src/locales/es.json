@@ -41,7 +41,7 @@
       "link": "/selectiveStructureView"
     },
     {
-      "icon": "mdi-ab-testing",
+      "icon": "mdi-controller",
       "title": "Test 1",
       "link": "/selectiveStructureView"
     }
@@ -63,7 +63,7 @@
       "link": "/definedFuntionsView"
     },
     {
-      "icon": "mdi-ab-testing",
+      "icon": "mdi-controller",
       "title": "Test 2",
       "link": "/definedFuntionsView"
     }
@@ -90,7 +90,7 @@
       "link": "/parallelListsView"
     },
     {
-      "icon": "mdi-ab-testing",
+      "icon": "mdi-controller",
       "title": "Test 3",
       "link": "/definedFuntionsView"
     },
