@@ -46,6 +46,17 @@
                     allowfullscreen></iframe>
             </v-col>
         </v-row>
+        <v-row align="center" justify="center">
+            <ul class="mt-4">
+                <li>
+                    <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
+                </li>
+            </ul>
+            <iframe class="mb-4 mt-4"
+                src="https://wordwall.net/es/embed/20420db4f348443d961588faefd57cc7?themeId=1&templateId=36&fontStackId=0"
+                style="border:0px;width:80%;height:80vh" allowfullscreen="true" webkitallowfullscreen="true"
+                mozallowfullscreen="true"></iframe>
+        </v-row>
     </v-container>
 </template>
 

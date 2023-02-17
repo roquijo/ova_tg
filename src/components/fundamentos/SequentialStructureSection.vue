@@ -28,6 +28,16 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </v-row>
+        <v-row align="center" justify="center">
+            <ul class="mt-4">
+                <li>
+                    <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
+                </li>
+            </ul>
+            <iframe class="mb-4 mt-4" src="https://learningapps.org/watch?v=p83g3zaoa23"
+                style="border:0px;width:80%;height:40vh" allowfullscreen="true" webkitallowfullscreen="true"
+                mozallowfullscreen="true"></iframe>
+        </v-row>
     </v-container>
 </template>
 

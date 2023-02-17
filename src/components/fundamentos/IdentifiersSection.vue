@@ -43,6 +43,16 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </v-row>
+        <v-row align="center" justify="center">
+            <ul class="mt-4">
+                <li>
+                    <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
+                </li>
+            </ul>
+            <iframe class="mb-4 mt-4" src="https://wordwall.net/es/embed/fe392949ae2842b28d221ddba127cb03?themeId=1&templateId=2&fontStackId=0"
+                style="border:0px;width:80%;height:70vh" allowfullscreen="true" webkitallowfullscreen="true"
+                mozallowfullscreen="true"></iframe>
+        </v-row>
     </v-container>
 </template>
 

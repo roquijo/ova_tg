@@ -35,7 +35,7 @@
                     <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
                 </li>
             </ul>
-            <iframe src="https://learningapps.org/watch?v=pobjhhou323" style="border:0px;width:80%;height:42vh"
+            <iframe src="https://learningapps.org/watch?v=pobjhhou323" style="border:0px;width:80%;height:50vh"
                 allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
         </v-row>
     </v-container>
