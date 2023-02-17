@@ -1,5 +1,5 @@
 <template>
-    <v-parallax dark src="@/assets/img/fundamentos/typeOfDataBg.png" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
+    <v-parallax dark src="@/assets/img/fundamentos/typeOfDataBg.jpg" height="rem" style="padding-top: 6rem; padding-bottom: 1rem;">
         <TypeOfDataSection />
     </v-parallax>
 </template>
