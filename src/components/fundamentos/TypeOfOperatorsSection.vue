@@ -4,7 +4,8 @@
             <v-col cols="10">
                 <v-row align="center">
                     <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down">
-                        <v-img src="@/assets/img/fundamentos/typeOperators.jpg" class="d-block ml-auto mr-auto" max-width="350px" />
+                        <v-img src="@/assets/img/fundamentos/typeOperators.jpg" class="d-block ml-auto mr-auto"
+                            max-width="350px" />
                     </v-col>
                     <v-col cols="12" md="6" xl="8">
                         <h2 class="display-2 font-weight-bold mb-4" v-t="'typeOfOperatorsPage.title'" />
@@ -14,7 +15,7 @@
                         <ul>
                             <li>
                                 <a href="https://www.cerebriti.com/juegos-de-matematicas/tipos-de-operadores"
-                                    target="_blank" style="color: yellow;" >
+                                    target="_blank" style="color: yellow;">
                                     <h3 class="font-weight-bold" v-t="'typeOfOperatorsPage.paragraph2'" />
                                 </a>
                             </li>
@@ -44,6 +45,15 @@
                         </v-col>
                     </v-row>
                 </v-col>
+                <ul class="mt-4">
+                    <li>
+                        <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
+                    </li>
+                </ul>
+                <iframe class="mb-4 mt-4"
+                    src="https://wordwall.net/es/embed/b2201127a5e34be38e2db509089a9127?themeId=1&templateId=2&fontStackId=0"
+                    style="border:0px;width:80%;height:80vh" allowfullscreen="true" webkitallowfullscreen="true"
+                    mozallowfullscreen="true"></iframe>
             </v-row>
         </v-container>
     </section>

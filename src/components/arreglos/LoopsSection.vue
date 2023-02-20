@@ -31,9 +31,18 @@
                 </ul>
             </v-row>
         </row>
+        <v-row align="center" justify="center" class="mb-2">
+            <ul class="mt-1">
+                <li>
+                    <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
+                </li>
+            </ul>
+            <iframe class="mt-4"
+                src="https://wordwall.net/es/embed/60bbc63e550740abb062eea7d05e4a07?themeId=1&templateId=38&fontStackId=0"
+                style="border:0px;width:80%;height:80vh" allowfullscreen="true" webkitallowfullscreen="true"
+                mozallowfullscreen="true"></iframe>
+        </v-row>
     </v-container>
 </template>
 
-<style>
-
-</style>
+<style></style>

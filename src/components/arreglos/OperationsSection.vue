@@ -15,8 +15,17 @@
                 <v-img :src="require('@/assets/img/arreglos/operations' + (i + 1) + '.png')" width="80%" />
             </v-col>
         </v-row>
-        <v-row align="center" justify="center" class="mb-5">
+        <v-row align="center" justify="center" class="mb-2">
             <h3 class="font-weight-light" v-t="'operationsPage.paragraph2'" />
+            <ul class="mt-5">
+                <li>
+                    <h2 style="color: yellow;" class="font-weight-bold" v-t="'test'" />
+                </li>
+            </ul>
+            <iframe class="mt-4"
+                src="https://wordwall.net/es/embed/5a13727a6e674d4fb7970b8ef64049e4?themeId=22&templateId=71&fontStackId=0"
+                style="border:0px;width:80%;height:80vh" allowfullscreen="true" webkitallowfullscreen="true"
+                mozallowfullscreen="true"></iframe>
         </v-row>
     </v-container>
 </template>
