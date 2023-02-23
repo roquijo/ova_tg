@@ -16,10 +16,10 @@
 			<v-divider />
 
 			<v-list>
-				<v-list-item-icon class="justify-center">
+				<v-list-item-icon class="justify-center ml-4">
 					<v-icon>mdi-home-outline</v-icon>
 				</v-list-item-icon>
-				<v-btn text @click="$router.push('/')">
+				<v-btn text @click="$router.push('/')" style="text-transform: none;">
 					Home
 				</v-btn>
 				<v-list-group v-for="(corte, index) in $t('cortes')" :key="index">
@@ -48,9 +48,6 @@
 					<v-img src="@/assets/img/logoU.png" max-width="6rem" />
 				</v-toolbar-title>
 			</a>
-			<v-toolbar-title style="cursor: pointer" @click="$router.push('/')" class="pl-5" v-if="!isXs"
-				v-t="'headerSection.title'" to="/" />
-
 			<v-spacer />
 			<div v-if="isXs">
 				<v-row style="display: flex; align-items: center;">
@@ -69,8 +66,8 @@
 					<v-col sm="3" v-for="(corte, index) in $t('cortes')" :key="index">
 						<v-menu open-on-hover offset-y transition="slide-x-transition" bottom right>
 							<template v-slot:activator="{ on, attrs }">
-								<v-btn text v-bind="attrs" v-on="on">
-									{{ corte }}
+								<v-btn text v-bind="attrs" v-on="on" style="text-transform: none;">
+									<h3 style="font-size: x-large;">{{ corte }}</h3>
 								</v-btn>
 							</template>
 							<v-list dense>

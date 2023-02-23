@@ -39,11 +39,6 @@
       "icon": "mdi-arrange-send-backward",
       "title": "Estructura selectiva",
       "link": "/selectiveStructureView"
-    },
-    {
-      "icon": "mdi-controller",
-      "title": "Test 1",
-      "link": "/selectiveStructureView"
     }
   ],
   "corte2": [
@@ -60,11 +55,6 @@
     {
       "icon": "mdi-function",
       "title": "Funciones definidas",
-      "link": "/definedFuntionsView"
-    },
-    {
-      "icon": "mdi-controller",
-      "title": "Test 2",
       "link": "/definedFuntionsView"
     }
   ],
@@ -88,11 +78,6 @@
       "icon": "mdi-view-list-outline",
       "title": "Listas paralelas",
       "link": "/parallelListsView"
-    },
-    {
-      "icon": "mdi-controller",
-      "title": "Test 3",
-      "link": "/definedFuntionsView"
     },
     {
       "icon": "mdi-bookshelf",
