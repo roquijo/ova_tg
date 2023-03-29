@@ -101,6 +101,13 @@
     "paragraph3": "Test what you have learned so far with the following activity:",
     "button": "Learn More"
   },
+  "fundamentalsPage": {
+    "title": "Fundamentals of logic",
+    "paragraph": "Logic is a science that studies the structure or forms of human thought (such as propositions, concepts and reasoning) to establish valid laws and principles to obtain points of view of truth.",
+    "paragraph2": "Logic plays an important role in computer science (databases, computational complexity, programming languages, artificial intelligence, design and verification of hardware and software systems, etc.). It is definitely one of the fundamentals that provide the necessary maturity and agility to assimilate the concepts, languages, techniques and computer tools that will emerge in the future.",
+    "paragraph3": "Test what you have learned so far with the following activity:",
+    "button": "Learn More"
+  },
   "algorithmPage": {
     "title": "Algorithms",
     "paragraph": "An algorithm is a set of instructions defined, ordered and delimited to solve a problem, to make a calculation or to develop a task from an initial state and information, a series of ordered steps are followed to reach the solution of a situation. We use numerous algorithms to solve problems in our daily lives, such as: ",

@@ -1,5 +1,5 @@
 <template>
-  <section id="homeSection">
+  <section id="fundamentalsSection">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -8,12 +8,12 @@
               <v-row>
                 <v-col cols="12" md="12" class="d-flex align-center">
                   <v-img src="@/assets/img/logicalIcon.png" max-width="60px" class="mr-4" />
-                  <p class="text-justify" v-t="'principalPage.paragraph2'">
+                  <p class="text-justify" v-t="'fundamentalsPage.paragraph2'">
                   </p>
                 </v-col>
                 <v-col cols="12" md="12"  class="d-flex align-center">
                   <v-img src="@/assets/img/testIcon.png" max-width="60px" class="mr-4" />
-                  <p class="text-justify" v-t="'principalPage.paragraph3'">
+                  <p class="text-justify" v-t="'fundamentalsPage.paragraph3'">
                   </p>
                 </v-col>
                 <v-col cols="12" md="12"  class="d-flex align-center">
