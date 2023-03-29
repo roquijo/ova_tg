@@ -5,21 +5,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import SequentialStructureSection from '../../components/fundamentos/SequentialStructureSection.vue'
 
 export default {
-
     name: 'SequentialStructureView',
-
     components: {
         SequentialStructureSection
     }
 };
-
 </script>
-
-<style>
-
-</style>

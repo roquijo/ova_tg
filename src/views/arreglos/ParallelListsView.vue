@@ -5,21 +5,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import ParallelListsSection from '../../components/arreglos/ParallelListsSection.vue'
 
 export default {
-
     name: 'parallelListsView',
-
     components: {
         ParallelListsSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import IdentifiersSection from '../../components/fundamentos/IdentifiersSection.vue'
 
 export default {
-
     name: 'IdentifiersView',
-
     components: {
         IdentifiersSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

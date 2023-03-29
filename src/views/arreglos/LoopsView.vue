@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import LoopsSection from '../../components/arreglos/LoopsSection.vue'
 
 export default {
-
     name: 'loopsView',
-
     components: {
         LoopsSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

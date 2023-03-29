@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import AlgorithmsSection from '../../components/fundamentos/AlgorithmsSection.vue'
 
 export default {
-
     name: 'algorithmsView',
-
     components: {
         AlgorithmsSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

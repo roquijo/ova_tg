@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import RepetitiveStructureSection from '../../components/estructuras/RepetitiveStructureSection.vue'
 
 export default {
-
     name: 'repetitiveStructureView',
-
     components: {
         RepetitiveStructureSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

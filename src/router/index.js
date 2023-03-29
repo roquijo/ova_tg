@@ -6,6 +6,7 @@ import HomeView from '../views/HomeView.vue'
 /**
  * Componentes de la seccion "fundamentos"
  */
+import FundamentalsView from '../views/fundamentos/FundamentalsView.vue'
 import AlgorithmsView from '../views/fundamentos/AlgorithmsView.vue'
 import SoftwareCycleView from '../views/fundamentos/SoftwareCycleView.vue'
 import IdentifiersView from '../views/fundamentos/IdentifiersView.vue'
@@ -38,10 +39,14 @@ const routes = [
     name: 'home',
     component: HomeView
   },
-
   /**
    * Se crean las rutas de los componentes de la seccion "fundamentos"
    */
+  {
+    path: '/fundamentalsView',
+    name: 'FundamentalsView',
+    component: FundamentalsView
+  },
   {
     path: '/algorithmsView',
     name: 'AlgorithmsView',

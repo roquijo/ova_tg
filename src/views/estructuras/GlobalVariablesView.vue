@@ -5,21 +5,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import GlobalVariablesSection from '../../components/estructuras/GlobalVariablesSection.vue'
 
 export default {
-
     name: 'globalVariablesSection',
-
     components: {
         GlobalVariablesSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

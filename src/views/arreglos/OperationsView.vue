@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import OperationsSection from '../../components/arreglos/OperationsSection.vue'
 
 export default {
-
     name: 'operationsView',
-
     components: {
         OperationsSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

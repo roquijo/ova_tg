@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import DefinedFuntionsView from '../../components/estructuras/DefinedFuntionsSection.vue'
 
 export default {
-
     name: 'definedFuntionsView',
-
     components: {
         DefinedFuntionsView
     },
 };
-
 </script>
-
-<style>
-
-</style>

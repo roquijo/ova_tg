@@ -5,21 +5,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import BibliographySection from '../../components/arreglos/BibliographySection.vue'
 
 export default {
-
     name: 'bibliographyView',
-
     components: {
         BibliographySection
     },
 };
-
 </script>
-
-<style>
-
-</style>

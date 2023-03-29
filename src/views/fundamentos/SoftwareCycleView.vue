@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import SoftwareCycleSection from '../../components/fundamentos/SoftwareCycleSection.vue'
 
 export default {
-
     name: 'softwareCycleView',
-
     components: {
         SoftwareCycleSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

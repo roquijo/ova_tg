@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import TypeOfOperatorsSection from '../../components/fundamentos/TypeOfOperatorsSection.vue'
 
 export default {
-
     name: 'TypeOfOperatorsView',
-
     components: {
         TypeOfOperatorsSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

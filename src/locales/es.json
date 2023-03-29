@@ -6,6 +6,11 @@
   ],
   "corte1": [
     {
+      "icon": "mdi-gate-xnor",
+      "title": "Fundamentos de la lógica",
+      "link": "/fundamentalsView"
+    },
+    {
       "icon": "mdi-chart-line",
       "title": "Algoritmos",
       "link": "/algorithmsView"

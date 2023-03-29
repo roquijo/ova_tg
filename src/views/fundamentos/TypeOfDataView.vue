@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import TypeOfDataSection from '../../components/fundamentos/TypeOfDataSection.vue'
 
 export default {
-
     name: 'TypeOfDataView',
-
     components: {
         TypeOfDataSection
     },
 };
-
 </script>
-
-<style>
-
-</style>

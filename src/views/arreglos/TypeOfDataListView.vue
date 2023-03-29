@@ -4,21 +4,13 @@
     </v-parallax>
 </template>
 
-
 <script>
 import TypeOfDataListSection from '../../components/arreglos/TypeOfDataListSection.vue'
 
 export default {
-
     name: 'typeOfDataListView',
-
     components: {
         TypeOfDataListSection
     },
 };
-
 </script>
-
-<style>
-
-</style>
