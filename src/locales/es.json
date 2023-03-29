@@ -95,9 +95,9 @@
     "title": "Universidad de Ibagué"
   },
   "principalPage": {
-    "title": "Fundamentos de la lógica",
-    "paragraph": "La lógica es una ciencia que estudia la estructura o formas del pensamiento humano (como proposiciones, conceptos y razonamientos) para establecer leyes y principios válidos para obtener criterios de verdad.",
-    "paragraph2": "La lógica juega un papel importante en la informática (bases de datos, complejidad computacional, lenguajes de programación, inteligencia artificial, diseño y verificación de sistemas hardware y software, etc.) Es sin duda uno de los fundamentos que proporcionan la madurez y agilidad necesarias para asimilar los conceptos, lenguajes, técnicas y herramientas informáticas que surjan en el futuro.",
+    "title": "Lógica algorítmica",
+    "paragraph": "La lógica algorítmica es la base fundamental de la programación de computadoras y de la automatización de procesos debido a que es el proceso de pensar de forma lógica y estructurada para desarrollar un algoritmo que pueda resolver un problema específico.",
+    "paragraph2": "Algunas de las razones por las que la lógica algorítmica es importante son:",
     "paragraph3": "Prueba lo aprendido hasta ahora con la siguiente actividad:",
     "button": "Aprenda Más"
   },

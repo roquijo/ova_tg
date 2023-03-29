@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="450" class="pt-10">
+    <v-parallax dark src="@/assets/img/bgHero.jpg" height="450" class="pt-16">
       <fundamentals />
     </v-parallax>
     <v-main class="pt-0">
