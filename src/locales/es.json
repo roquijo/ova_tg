@@ -98,8 +98,25 @@
     "title": "Lógica algorítmica",
     "paragraph": "La lógica algorítmica es la base fundamental de la programación de computadoras y de la automatización de procesos debido a que es el proceso de pensar de forma lógica y estructurada para desarrollar un algoritmo que pueda resolver un problema específico.",
     "paragraph2": "Algunas de las razones por las que la lógica algorítmica es importante son:",
-    "paragraph3": "Prueba lo aprendido hasta ahora con la siguiente actividad:",
-    "button": "Aprenda Más"
+    "button": "Aprenda Más",
+    "list": [
+      {
+        "title": "Resolución de problemas:",
+        "text": "Permite abordar problemas complejos y descomponerlos en tareas más pequeñas y manejables. De esta forma, se puede analizar y resolver el problema de manera más efectiva y eficiente."
+      },
+      {
+        "title": "Optimización de procesos:",
+        "text": "Ayuda a optimizar los procesos y a automatizar tareas repetitivas. Al desarrollar algoritmos eficientes, se pueden ahorrar recursos y tiempo en la realización de tareas."
+      },
+      {
+        "title": "Programación de computadoras:",
+        "text": "Es fundamental para la programación de computadoras. Los programas de computadora se basan en la escritura de algoritmos precisos que describen las acciones que el programa debe realizar."
+      },
+      {
+        "title": "Diseño de sistemas:",
+        "text": "Se pueden diseñar sistemas de manera más eficiente y efectiva al utilizar algoritmos precisos para describir los procesos y tareas necesarias."
+      }
+    ]
   },
   "fundamentalsPage": {
     "title": "Fundamentos de la lógica",

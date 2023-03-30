@@ -6,9 +6,9 @@
           <v-col cols="12" md="6" xl="8">
             <h2 class="display-2 font-weight-bold mb-4" justify="center" v-t="'principalPage.title'" />
             <br>
-            <h3 class="font-weight-light" justify="center" v-t="'principalPage.paragraph'" />
-            <v-btn rounded outlined large dark router to="/fundamentalsView" class="mt-5"
-              v-t="'principalPage.button'">
+            <h3 class="font-weight-light mb-5" justify="center" v-t="'principalPage.paragraph'" />
+            <h3 class="font-weight-light" justify="center" v-t="'principalPage.paragraph2'" />
+            <v-btn rounded outlined large dark router to="/fundamentalsView" class="mt-5" v-t="'principalPage.button'">
               <v-icon class="ml-2">mdi-arrow-down</v-icon>
             </v-btn>
           </v-col>
