@@ -19,7 +19,7 @@
                 <v-img src="@/assets/img/fundamentos/sequentialEstructure.webp" width="40%" />
             </v-col>
             <v-col cols="12" md="6" align="center">
-                <v-img src="@/assets/img/fundamentos/sequentialEstructure2.png" width="100%" />
+                <v-img src="@/assets/img/fundamentos/sequentialEstructure2.jpeg" width="70%" />
             </v-col>
         </v-row>
         <v-row align="center" justify="center">
