@@ -96,25 +96,25 @@
   },
   "principalPage": {
     "title": "Lógica algorítmica",
-    "paragraph": "La lógica algorítmica es la base fundamental de la programación de computadoras y de la automatización de procesos debido a que es el proceso de pensar de forma lógica y estructurada para desarrollar un algoritmo que pueda resolver un problema específico.",
-    "paragraph2": "Algunas de las razones por las que la lógica algorítmica es importante son:",
-    "button": "Aprenda Más",
+    "paragraph": "Algorithmic logic is the fundamental basis of computer programming and process automation because it is the process of thinking logically and structuredly to develop an algorithm that can solve a specific problem.",
+    "paragraph2": "Some of the reasons why algorithmic logic is important are:",
+    "button": "Learn More",
     "list": [
       {
-        "title": "Resolución de problemas:",
-        "text": "Permite abordar problemas complejos y descomponerlos en tareas más pequeñas y manejables. De esta forma, se puede analizar y resolver el problema de manera más efectiva y eficiente."
+        "title": "Problem solving:",
+        "text": "It allows complex problems to be approached and broken down into smaller, more manageable tasks. This way, the problem can be analyzed and solved more effectively and efficiently."
       },
       {
-        "title": "Optimización de procesos:",
-        "text": "Ayuda a optimizar los procesos y a automatizar tareas repetitivas. Al desarrollar algoritmos eficientes, se pueden ahorrar recursos y tiempo en la realización de tareas."
+        "title": "Process optimization:",
+        "text": "It helps optimize processes and automate repetitive tasks. By developing efficient algorithms, resources and time can be saved in the completion of tasks."
       },
       {
-        "title": "Programación de computadoras:",
-        "text": "Es fundamental para la programación de computadoras. Los programas de computadora se basan en la escritura de algoritmos precisos que describen las acciones que el programa debe realizar."
+        "title": "Computer programming:",
+        "text": "It is fundamental for computer programming. Computer programs are based on the writing of precise algorithms that describe the actions that the program should perform."
       },
       {
-        "title": "Diseño de sistemas:",
-        "text": "Se pueden diseñar sistemas de manera más eficiente y efectiva al utilizar algoritmos precisos para describir los procesos y tareas necesarias."
+        "title": "System design:",
+        "text": "Efficient and effective systems can be designed by using precise algorithms to describe the necessary processes and tasks."
       }
     ]
   },
