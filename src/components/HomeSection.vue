@@ -59,7 +59,7 @@ export default {
           img: require("@/assets/img/Jorge.jpeg")
         },
         {
-          name: "Gustavo Martines Villalobos",
+          name: "Gustavo Martinez Villalobos",
           img: require("@/assets/img/Gustavo.jpeg")
         }
       ],
